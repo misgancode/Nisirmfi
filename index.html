@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nisir Microfinance | ንስር ማይክሮፋይናንስ ተቋም አ.ማ</title>
+<meta name="description" content="Nisir Microfinance Institution: savings from 25 ETB, SME and personal loans, Kacha digital savings and 24 branches across Ethiopia. Calculate, apply and track your loan online in English or አማርኛ.">
+<meta name="theme-color" content="#0E1642">
+<meta property="og:title" content="Nisir Microfinance | ንስር የሁላችን ሃብት!">
+<meta property="og:description" content="Savings, loans and digital banking for small businesses and working families in Ethiopia.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/nisir-mark.png">
+<link rel="apple-touch-icon" href="assets/nisir-mark.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FinancialService","name":"Nisir Microfinance Institution Share Company","alternateName":"ንስር ማይክሮፋይናንስ ተቋም አ.ማ","url":"https://nisirmfi.com","email":"info@nisirmfi.com","telephone":"+251115622225","foundingDate":"2014","logo":"assets/nisir-logo.jpg","slogan":"Nisir: A Treasure For All","address":{"@type":"PostalAddress","streetAddress":"Nisir Building, European Union Street","addressLocality":"Addis Ababa","addressCountry":"ET"}}
+</script>
+<style>
+:root{
+  --ink:#0E1642; --ink-2:#1B2670; --teal:#2A3A8C; --teal-l:#DCE1F4;
+  --mist:#EEF0F8; --paper:#FAFBFE; --white:#fff;
+  --gold:#E2A72E; --gold-l:#F6E3B4; --gold-d:#7E5607;
+  --clay:#B93A26; --ok:#16764F;
+  --text:#14172B; --muted:#52587A; --line:#D5DAEE;
+  --display:"Iowan Old Style","Palatino Linotype",Palatino,"Noto Serif Ethiopic","Abyssinica SIL",Nyala,Georgia,serif;
+  --sans:system-ui,-apple-system,"Segoe UI","Noto Sans Ethiopic",Nyala,Kefa,Roboto,"Helvetica Neue",Arial,sans-serif;
+  --r-sm:10px; --r-md:18px; --r-lg:28px; --r-pill:999px;
+  --wrap:1180px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--sans);color:var(--text);background:var(--paper);line-height:1.55;font-size:16px;overflow-x:hidden}
+img,svg,canvas{display:block;max-width:100%}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:inherit}
+h1,h2,h3,h4{font-family:var(--display);line-height:1.12;margin:0 0 .5em;letter-spacing:-.01em;font-weight:700}
+p{margin:0 0 1em}
+.wrap{width:min(var(--wrap),100% - 40px);margin-inline:auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+.skip{position:absolute;left:12px;top:-60px;background:var(--gold);color:var(--ink);padding:10px 16px;border-radius:var(--r-sm);z-index:200;font-weight:700;text-decoration:none}
+.skip:focus{top:12px}
+section{scroll-margin-top:76px}
+.sec{padding:clamp(56px,9vw,112px) 0}
+.sec h2{font-size:clamp(1.9rem,4.2vw,3.1rem);max-width:18ch}
+.lead{font-size:1.125rem;color:var(--muted);max-width:56ch}
+.dark{background:var(--ink);color:#EBEEF9}
+.dark .lead{color:#B8C0E6}
+.mist{background:var(--mist)}
+.tag{display:inline-block;font-size:.85rem;font-weight:600;color:var(--teal);margin-bottom:.9rem}
+.dark .tag{color:var(--gold)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:48px;padding:.7rem 1.4rem;border-radius:var(--r-pill);border:2px solid transparent;font-weight:700;cursor:pointer;text-decoration:none;transition:transform .18s,background .18s,box-shadow .18s;background:var(--gold);color:var(--ink)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px -10px rgba(226,167,46,.8)}
+.btn:active{transform:translateY(0)}
+.btn.ghost{background:transparent;border-color:currentColor;color:inherit}
+.btn.ghost:hover{background:rgba(255,255,255,.08);box-shadow:none}
+.btn.teal{background:var(--teal);color:#fff}
+.btn.teal:hover{box-shadow:0 10px 24px -10px rgba(42,58,140,.8)}
+.btn[disabled]{opacity:.5;cursor:not-allowed;transform:none;box-shadow:none}
+.btn.sm{min-height:40px;padding:.4rem 1rem;font-size:.92rem}
+
+/* header */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:100;transition:background .25s,box-shadow .25s,transform .25s}
+.hdr.solid{background:rgba(14,22,66,.94);backdrop-filter:blur(10px);box-shadow:0 1px 0 rgba(255,255,255,.08)}
+.hdr .wrap{display:flex;align-items:center;gap:16px;height:68px;color:#fff}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--display);font-weight:700;font-size:1.35rem;margin-right:auto}
+.brand{background:#fff;border-radius:14px;padding:4px 10px;box-shadow:0 6px 18px -8px rgba(0,0,0,.5)}
+.logo{height:46px;width:auto;display:block}
+.foot-logo{height:96px;background:#fff;border-radius:16px;padding:8px 16px;margin-bottom:18px}
+@media (max-width:420px){.logo{height:40px}}
+.brand small{display:block;font-family:var(--sans);font-size:.62rem;font-weight:500;opacity:.75;letter-spacing:.01em;margin-top:-3px}
+.nav{display:flex;align-items:center;gap:4px}
+.nav>ul{display:flex;list-style:none;margin:0;padding:0;gap:2px}
+.nav li{position:relative}
+.nav a.l,.nav button.l{display:block;padding:.55rem .8rem;border-radius:var(--r-pill);text-decoration:none;font-weight:600;font-size:.95rem;background:none;border:0;color:inherit;cursor:pointer}
+.nav a.l:hover,.nav button.l:hover{background:rgba(255,255,255,.1)}
+.sub{position:absolute;left:0;top:100%;min-width:240px;background:var(--white);color:var(--text);border-radius:var(--r-md);padding:8px;list-style:none;margin:6px 0 0;box-shadow:0 24px 50px -18px rgba(0,0,0,.45);opacity:0;visibility:hidden;transform:translateY(6px);transition:.18s}
+.has-sub:hover .sub,.has-sub:focus-within .sub{opacity:1;visibility:visible;transform:none}
+.sub a{display:block;padding:.6rem .8rem;border-radius:var(--r-sm);text-decoration:none;font-size:.94rem}
+.sub a:hover{background:var(--mist)}
+.lang{display:inline-flex;background:rgba(255,255,255,.12);border-radius:var(--r-pill);padding:3px}
+.lang button{border:0;background:none;color:#fff;padding:.35rem .75rem;border-radius:var(--r-pill);font-weight:700;font-size:.85rem;cursor:pointer;min-height:34px}
+.lang button[aria-pressed=true]{background:var(--gold);color:var(--ink)}
+.burger{display:none;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.12);color:#fff;cursor:pointer;position:relative}
+.burger span,.burger span::before,.burger span::after{position:absolute;left:12px;width:20px;height:2px;background:#fff;content:"";transition:.2s}
+.burger span{top:21px}.burger span::before{top:-6px;left:0}.burger span::after{top:6px;left:0}
+.burger[aria-expanded=true] span{background:transparent}
+.burger[aria-expanded=true] span::before{top:0;transform:rotate(45deg)}
+.burger[aria-expanded=true] span::after{top:0;transform:rotate(-45deg)}
+.nav .apply-in{display:none}
+@media (max-width:980px){
+  .nav .apply-in{display:inline-flex}
+  .burger{display:block}
+  .nav{position:fixed;inset:68px 0 0 0;background:var(--ink);flex-direction:column;align-items:stretch;padding:18px 20px 120px;overflow:auto;transform:translateX(100%);transition:transform .3s;gap:12px}
+  .nav.open{transform:none}
+  .nav>ul{flex-direction:column;gap:0}
+  .nav a.l,.nav button.l{font-size:1.15rem;padding:.8rem .4rem;border-radius:0;border-bottom:1px solid rgba(255,255,255,.1);width:100%;text-align:left}
+  .sub{position:static;opacity:1;visibility:visible;transform:none;background:transparent;box-shadow:none;padding:0 0 6px 14px;margin:0;color:#B8C0E6}
+  .sub a:hover{background:rgba(255,255,255,.08)}
+  .hdr .apply-top{display:none}
+}
+
+/* hero */
+.hero{position:relative;background:radial-gradient(1200px 700px at 78% 30%,#26357F 0%,transparent 60%),linear-gradient(180deg,#0E1642 0%,#090E30 100%);color:#fff;padding:120px 0 150px;min-height:min(100svh,860px);overflow:hidden;display:flex;align-items:center}
+.hero .wrap{position:relative;z-index:2}
+.hero-copy{max-width:600px}
+.hero .motto{font-family:var(--display);font-size:clamp(2.6rem,7vw,5.2rem);line-height:1.02;margin-bottom:.35em;text-wrap:balance}
+.hero .am{display:block;color:var(--gold);font-size:.68em;margin-top:.2em}
+.hero p.lead{color:#C9D0EE;font-size:1.18rem}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.hero-3d{position:absolute;right:0;top:0;width:62%;height:100%;z-index:1}
+.hero-3d canvas{width:100%;height:100%;touch-action:pan-y}
+.hero-note{position:absolute;right:max(20px,calc((100% - var(--wrap))/2));bottom:100px;z-index:2;text-align:right;font-size:.82rem;color:#A3ADDA;max-width:22ch}
+@media (max-width:860px){
+  .hero{padding:96px 0 120px;display:block}
+  .hero-3d{position:relative;width:100%;height:300px;margin:0 0 -30px}
+  .hero-note{display:none}
+}
+
+/* stats */
+.stats{position:relative;z-index:3;margin-top:-70px}
+.stats-in{display:grid;grid-template-columns:repeat(4,1fr);background:var(--white);border-radius:var(--r-lg);box-shadow:0 30px 60px -30px rgba(14,22,66,.5);overflow:hidden}
+.stat{padding:28px 24px;border-right:1px solid var(--line)}
+.stat:last-child{border:0}
+.stat b{display:block;font-family:var(--display);font-size:clamp(2rem,4vw,3rem);color:var(--ink);line-height:1}
+.stat b i{font-style:normal;color:var(--gold-d)}
+.stat span{color:var(--muted);font-size:.95rem}
+@media (max-width:760px){.stats-in{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+
+/* trust */
+.trust{padding:56px 0 8px}
+.trust-row{display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center}
+.badge{display:flex;align-items:center;gap:10px;font-weight:600;font-size:.95rem;color:var(--ink-2)}
+.badge svg{width:34px;height:34px;flex:none}
+.badge small{display:block;font-weight:500;color:var(--muted);font-size:.8rem}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(28px,5vw,72px);align-items:start}
+.vm{display:grid;gap:18px}
+.vm div{padding:22px 24px;border-left:4px solid var(--gold);background:var(--mist);border-radius:0 var(--r-md) var(--r-md) 0}
+.vm h3{font-size:1.2rem;margin-bottom:.3em}
+.vm p{margin:0;color:var(--muted)}
+.values{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:28px}
+.values p{margin:0;padding:16px 18px;border-radius:var(--r-md);background:var(--teal-l);font-weight:600;color:var(--ink-2);font-size:.97rem}
+.ceo{margin-top:28px;display:flex;gap:16px;align-items:center}
+.ceo i{width:54px;height:54px;border-radius:50%;background:var(--ink);color:var(--gold);display:grid;place-items:center;font-family:var(--display);font-style:normal;font-size:1.3rem}
+.ceo b{display:block}.ceo span{color:var(--muted);font-size:.92rem}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr}.values{grid-template-columns:1fr}}
+
+/* services */
+.tabs{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 10px;margin:24px 0 22px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{scroll-snap-align:start;flex:none;border:2px solid var(--line);background:var(--white);border-radius:var(--r-pill);padding:.6rem 1.2rem;font-weight:700;cursor:pointer;min-height:46px;transition:.18s;color:var(--ink-2)}
+.tab[aria-selected=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+.panel{animation:swap .35s ease}
+@keyframes swap{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.rail{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 18px;margin-inline:-2px}
+.rail>*{scroll-snap-align:start;flex:0 0 min(280px,78vw)}
+.rate{background:var(--white);border:1px solid var(--line);border-radius:var(--r-lg) var(--r-lg) var(--r-lg) 6px;padding:24px;display:flex;flex-direction:column;gap:6px;min-height:230px}
+.rate .local{font-family:var(--display);font-size:1.7rem;color:var(--ink)}
+.rate .nm{font-weight:700}
+.rate .pct{font-family:var(--display);font-size:3.2rem;line-height:1;color:var(--teal);margin-top:auto}
+.rate .pct small{font-size:1rem;color:var(--muted);font-family:var(--sans)}
+.rate p{color:var(--muted);font-size:.92rem;margin:0}
+.rate.hl{background:var(--ink);color:#fff;border-color:var(--ink)}
+.rate.hl .local{color:var(--gold)}.rate.hl .pct{color:var(--gold)}.rate.hl p,.rate.hl .pct small{color:#B8C0E6}
+.loans{display:grid;gap:12px}
+.loan{border:1px solid var(--line);border-radius:var(--r-md);background:var(--white);overflow:hidden}
+.loan button{width:100%;background:none;border:0;text-align:left;padding:20px 22px;display:flex;align-items:center;gap:14px;cursor:pointer;min-height:64px}
+.loan button b{font-family:var(--display);font-size:1.25rem;flex:1}
+.loan button em{font-style:normal;color:var(--teal);font-weight:700;font-size:.9rem}
+.loan button::after{content:"+";font-size:1.5rem;color:var(--gold-d);transition:transform .25s}
+.loan button[aria-expanded=true]::after{transform:rotate(45deg)}
+.loan .body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s}
+.loan .body>div{overflow:hidden}
+.loan button[aria-expanded=true]+.body{grid-template-rows:1fr}
+.loan .body p{padding:0 22px 18px;margin:0;color:var(--muted);max-width:70ch}
+.loan .body .btn{margin:0 22px 22px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:760px){.split{grid-template-columns:1fr}}
+.box{background:var(--white);border:1px solid var(--line);border-radius:var(--r-lg);padding:26px}
+.box h3{font-size:1.35rem}
+table{width:100%;border-collapse:collapse;font-size:.97rem}
+th,td{padding:14px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-weight:700;color:var(--ink-2);background:var(--mist)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-md);background:var(--white)}
+.free{color:var(--ok);font-weight:700}
+
+/* calculators */
+.calc{margin-top:32px;display:grid;grid-template-columns:1.1fr .9fr;gap:22px}
+.calc .ctl,.calc .out{background:var(--ink-2);border-radius:var(--r-lg);padding:clamp(20px,3vw,34px)}
+.calc .out{background:linear-gradient(160deg,#F6E3B4,#E2A72E);color:var(--ink);display:flex;flex-direction:column;gap:14px}
+.field{margin-bottom:20px}
+.field label,.lbl{display:flex;justify-content:space-between;gap:10px;font-weight:600;font-size:.95rem;margin-bottom:8px}
+.field label output{color:var(--gold);font-variant-numeric:tabular-nums}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:36px;background:transparent;cursor:pointer}
+input[type=range]::-webkit-slider-runnable-track{height:8px;border-radius:8px;background:linear-gradient(90deg,var(--gold) var(--p,0%),rgba(255,255,255,.18) var(--p,0%))}
+input[type=range]::-moz-range-track{height:8px;border-radius:8px;background:rgba(255,255,255,.18)}
+input[type=range]::-moz-range-progress{height:8px;border-radius:8px;background:var(--gold)}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:28px;height:28px;border-radius:50%;background:#fff;border:6px solid var(--gold);margin-top:-10px;box-shadow:0 4px 10px rgba(0,0,0,.35)}
+input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:#fff;border:6px solid var(--gold)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:2px solid rgba(255,255,255,.25);background:transparent;color:inherit;border-radius:var(--r-pill);padding:.45rem .95rem;font-weight:600;cursor:pointer;min-height:40px;font-size:.92rem;transition:.15s}
+.chip[aria-pressed=true]{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.light .chip{border-color:var(--line);color:var(--ink-2)}
+.light .chip[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.big{font-family:var(--display);font-size:clamp(2.2rem,5vw,3.4rem);line-height:1;font-variant-numeric:tabular-nums}
+.out small{font-size:.88rem;opacity:.85}
+.bar{height:16px;border-radius:16px;background:rgba(14,22,66,.18);overflow:hidden;display:flex}
+.bar i{display:block;height:100%;background:var(--ink);transition:width .45s cubic-bezier(.2,.8,.2,1)}
+.bar i+i{background:var(--clay)}
+.kv{display:flex;justify-content:space-between;gap:10px;font-size:.95rem;border-top:1px solid rgba(14,22,66,.2);padding-top:10px}
+.kv b{font-variant-numeric:tabular-nums}
+.note{font-size:.82rem;opacity:.8;margin:0}
+.numin{width:100%;min-height:44px;border-radius:var(--r-sm);border:2px solid rgba(255,255,255,.25);background:rgba(0,0,0,.18);color:#fff;padding:.4rem .8rem;margin-bottom:6px}
+select.numin{appearance:auto}
+select.numin option{color:#000}
+@media (max-width:860px){.calc{grid-template-columns:1fr}}
+
+/* kacha */
+.kacha{display:grid;grid-template-columns:1fr auto;gap:clamp(24px,6vw,90px);align-items:center}
+.steps-list{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:10px}
+.steps-list button{width:100%;text-align:left;border:2px solid var(--line);background:var(--white);border-radius:var(--r-md);padding:14px 16px;cursor:pointer;display:flex;gap:14px;align-items:center;min-height:60px;transition:.2s}
+.steps-list button[aria-current=step]{border-color:var(--teal);background:var(--teal-l)}
+.steps-list b{width:32px;height:32px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;flex:none;font-size:.9rem}
+.steps-list span{font-weight:600}
+.phone-stage{perspective:1100px;padding:10px 30px}
+.phone{--rx:0deg;--ry:-8deg;width:290px;height:580px;border-radius:44px;background:#0B1512;padding:12px;box-shadow:0 50px 80px -30px rgba(14,22,66,.6),inset 0 0 0 2px #2c3d37;transform:rotateY(var(--ry)) rotateX(var(--rx));transition:transform .2s ease-out;position:relative}
+.phone::before{content:"";position:absolute;top:18px;left:50%;width:84px;height:22px;border-radius:14px;background:#000;transform:translateX(-50%);z-index:3}
+.screen{height:100%;border-radius:34px;background:#fff;overflow:hidden;padding:54px 18px 18px;display:flex;flex-direction:column;gap:12px;position:relative}
+.screen>*{animation:swap .35s ease both}
+.screen h4{font-size:1.25rem;margin:0}
+.screen .wallet{background:linear-gradient(135deg,var(--teal),var(--ink));color:#fff;border-radius:18px;padding:16px}
+.screen .wallet b{font-family:var(--display);font-size:1.7rem;display:block}
+.screen .opt{border:2px solid var(--line);border-radius:14px;padding:12px 14px;text-align:left;background:#fff;cursor:pointer;font-weight:600}
+.screen .opt[aria-pressed=true]{border-color:var(--teal);background:var(--teal-l)}
+.screen .opt small{display:block;font-weight:500;color:var(--muted)}
+.screen .go{margin-top:auto;border:0;border-radius:14px;background:var(--ink);color:#fff;padding:14px;font-weight:700;cursor:pointer;min-height:48px}
+.screen .done{width:78px;height:78px;border-radius:50%;background:var(--ok);display:grid;place-items:center;margin:20px auto 0}
+.screen .done svg{width:40px;height:40px;stroke:#fff;fill:none;stroke-width:4;stroke-dasharray:50;stroke-dashoffset:50;animation:draw .6s .2s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.screen p.s{font-size:.82rem;color:var(--muted);margin:0}
+.kacha-note{font-size:.82rem;color:var(--muted);margin-top:14px}
+@media (max-width:860px){.kacha{grid-template-columns:1fr}.phone-stage{justify-self:center;order:-1}}
+
+/* forms / wizard */
+.card-l{background:var(--white);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:0 30px 60px -40px rgba(14,22,66,.5)}
+.wizard{margin-top:30px;padding:clamp(20px,4vw,40px);max-width:880px}
+.prog{height:8px;background:var(--mist);border-radius:8px;overflow:hidden;margin-bottom:16px}
+.prog i{display:block;height:100%;width:25%;background:linear-gradient(90deg,var(--teal),var(--gold));border-radius:8px;transition:width .5s cubic-bezier(.2,.8,.2,1)}
+.dots{display:flex;gap:6px;margin-bottom:26px}
+.dots span{flex:1;font-size:.82rem;font-weight:600;color:var(--muted);padding-bottom:6px;border-bottom:3px solid var(--line);transition:.3s}
+.dots span.on{color:var(--ink);border-color:var(--gold)}
+.dots span.done{color:var(--ok);border-color:var(--ok)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px}
+.grid2 .full{grid-column:1/-1}
+@media (max-width:640px){.grid2{grid-template-columns:1fr}}
+.fg label{display:block;font-weight:600;font-size:.92rem;margin-bottom:6px}
+.fg label small{font-weight:500;color:var(--muted)}
+.fi{width:100%;min-height:48px;border:2px solid var(--line);border-radius:var(--r-sm);padding:.55rem .8rem;background:#fff;transition:border-color .15s,box-shadow .15s}
+textarea.fi{min-height:96px;resize:vertical}
+.fi:focus{border-color:var(--teal);outline:0;box-shadow:0 0 0 4px rgba(42,58,140,.18)}
+.fi[aria-invalid=true]{border-color:var(--clay);animation:shake .35s}
+.fi.ok{border-color:var(--ok)}
+.err{color:var(--clay);font-size:.84rem;min-height:1.2em;margin-top:4px;font-weight:600}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.wiz-nav{display:flex;justify-content:space-between;gap:12px;margin-top:26px;flex-wrap:wrap}
+.chk{display:flex;gap:12px;align-items:flex-start;font-size:.95rem}
+.chk input{width:22px;height:22px;margin-top:2px;accent-color:var(--teal);flex:none}
+.review{background:var(--mist);border-radius:var(--r-md);padding:16px 18px;font-size:.95rem;display:grid;gap:6px}
+.review div{display:flex;justify-content:space-between;gap:12px}
+.review b{text-align:right}
+.success{text-align:center;padding:20px 0}
+.success .ref{display:inline-block;font-family:var(--display);font-size:1.7rem;background:var(--gold-l);padding:.5rem 1.2rem;border-radius:var(--r-md);margin:12px 0;user-select:all}
+
+/* docs */
+.docs-head{display:flex;flex-wrap:wrap;gap:18px;align-items:end;justify-content:space-between;margin-top:28px}
+.checklist{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:10px}
+.checklist li{animation:swap .35s ease both}
+.checklist label{display:flex;gap:14px;align-items:flex-start;background:var(--white);border:2px solid var(--line);border-radius:var(--r-md);padding:14px 16px;cursor:pointer;transition:.2s}
+.checklist input{width:24px;height:24px;accent-color:var(--teal);flex:none;margin-top:2px}
+.checklist input:checked+span{color:var(--muted);text-decoration:line-through}
+.checklist label:has(input:checked){border-color:var(--ok);background:#EAF6F0}
+.checklist .am{display:block;font-size:.88rem;color:var(--muted);text-decoration:none}
+.checklist .cond{font-size:.8rem;color:var(--gold-d);font-weight:700}
+.meter{display:flex;align-items:center;gap:12px;font-weight:700}
+.meter .prog{width:160px;margin:0}
+
+/* track */
+.track-wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:22px;margin-top:30px}
+@media (max-width:860px){.track-wrap{grid-template-columns:1fr}}
+.stages{list-style:none;margin:0;padding:0;position:relative}
+.stages li{display:flex;gap:16px;padding:0 0 26px;position:relative}
+.stages li::before{content:"";position:absolute;left:15px;top:32px;bottom:0;width:3px;background:var(--line)}
+.stages li:last-child::before{display:none}
+.stages li.done::before{background:var(--ok)}
+.stages i{width:32px;height:32px;border-radius:50%;border:3px solid var(--line);background:#fff;flex:none;display:grid;place-items:center;font-style:normal;font-weight:700;font-size:.85rem;z-index:1;transition:.3s}
+.stages li.done i{background:var(--ok);border-color:var(--ok);color:#fff}
+.stages li.now i{border-color:var(--gold);background:var(--gold-l);animation:pulse 1.6s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px rgba(226,167,46,.25)}}
+.stages b{display:block}.stages span{color:var(--muted);font-size:.9rem}
+
+/* branches */
+.bar-tools{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 18px}
+.bar-tools .fi{flex:1 1 260px}
+.bar-tools select.fi{flex:0 1 220px}
+.bcount{color:var(--muted);font-size:.92rem;margin-bottom:10px}
+.branches{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.br{background:var(--white);border:1px solid var(--line);border-radius:var(--r-md);padding:18px 18px 16px;display:flex;flex-direction:column;gap:6px}
+.br h3{font-size:1.2rem;margin:0}
+.br h3 em{font-style:normal;font-family:var(--sans);font-size:.72rem;font-weight:700;background:var(--gold-l);color:var(--gold-d);padding:.15rem .5rem;border-radius:var(--r-pill);margin-left:6px;vertical-align:middle}
+.br p{margin:0;font-size:.92rem;color:var(--muted)}
+.br .dist{color:var(--teal);font-weight:700;font-size:.88rem}
+.br .acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:10px}
+.br a.ph{font-weight:700;text-decoration:none;color:var(--ink-2)}
+.empty{padding:36px;text-align:center;color:var(--muted);border:2px dashed var(--line);border-radius:var(--r-md);grid-column:1/-1}
+.cb{margin-top:48px;padding:clamp(20px,4vw,40px)}
+.slots{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px}
+.light .slots .chip{border-color:var(--line)}
+
+/* faq */
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,60px);align-items:start}
+@media (max-width:860px){.faq-grid{grid-template-columns:1fr}}
+.res-links{display:grid;gap:12px;margin-bottom:28px}
+.res-links .box{padding:18px 20px}
+.res-links h3{font-size:1.1rem;margin:0 0 .3em}
+.res-links p{margin:0;color:var(--muted);font-size:.95rem}
+
+/* footer */
+.foot{background:var(--ink);color:#B8C0E6;padding:64px 0 120px}
+.foot-g{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:34px}
+@media (max-width:760px){.foot-g{grid-template-columns:1fr}}
+.foot h4{color:#fff;font-size:1.05rem}
+.foot a{text-decoration:none}.foot a:hover{color:var(--gold)}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.foot .fine{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);font-size:.85rem}
+
+/* dock + chat */
+.dock{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:120;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.dock-list{display:flex;flex-direction:column;gap:10px;align-items:flex-end;transform-origin:bottom right;transition:.25s;opacity:0;transform:scale(.85) translateY(10px);pointer-events:none}
+.dock.open .dock-list{opacity:1;transform:none;pointer-events:auto}
+.dock-item{display:flex;align-items:center;gap:10px;background:var(--white);color:var(--ink);border:0;border-radius:var(--r-pill);padding:.5rem 1rem .5rem .5rem;font-weight:700;text-decoration:none;box-shadow:0 12px 30px -10px rgba(0,0,0,.45);cursor:pointer;min-height:48px}
+.dock-item i{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;color:#fff;font-style:normal;font-weight:800;font-size:.95rem}
+.dock-main{width:62px;height:62px;border-radius:50%;border:0;background:var(--gold);color:var(--ink);box-shadow:0 14px 30px -8px rgba(0,0,0,.55);cursor:pointer;display:grid;place-items:center;transition:transform .2s}
+.dock-main:hover{transform:scale(1.06)}
+.dock-main svg{width:28px;height:28px}
+.chat{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:96px;width:min(400px,calc(100vw - 32px));height:min(560px,calc(100svh - 130px));background:var(--white);border-radius:var(--r-lg);box-shadow:0 40px 80px -20px rgba(0,0,0,.6);z-index:130;display:none;flex-direction:column;overflow:hidden;border:1px solid var(--line)}
+.chat.open{display:flex;animation:swap .3s ease}
+.chat header{background:var(--ink);color:#fff;padding:14px 16px;display:flex;align-items:center;gap:12px}
+.chat header b{font-family:var(--display);font-size:1.1rem}
+.chat header small{display:block;opacity:.75;font-size:.76rem}
+.chat header button{margin-left:auto;background:rgba(255,255,255,.12);color:#fff;border:0;width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:1.2rem}
+.msgs{flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:10px;background:var(--mist)}
+.m{max-width:86%;padding:.65rem .9rem;border-radius:16px;font-size:.95rem;white-space:pre-line;animation:swap .25s ease}
+.m.bot{background:#fff;border-bottom-left-radius:4px;align-self:flex-start}
+.m.me{background:var(--ink);color:#fff;border-bottom-right-radius:4px;align-self:flex-end}
+.typing{display:flex;gap:4px;padding:.8rem 1rem}
+.typing i{width:7px;height:7px;border-radius:50%;background:var(--muted);animation:blink 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes blink{0%,80%,100%{opacity:.25}40%{opacity:1}}
+.sugg{display:flex;gap:8px;overflow-x:auto;padding:10px 12px 0;scrollbar-width:none}
+.sugg .chip{flex:none;border-color:var(--line);color:var(--ink-2);font-size:.85rem;min-height:36px}
+.chat form{display:flex;gap:8px;padding:12px}
+.chat form input{flex:1;min-height:46px;border-radius:var(--r-pill);border:2px solid var(--line);padding:0 16px}
+.chat form button{width:46px;height:46px;border-radius:50%;border:0;background:var(--gold);cursor:pointer;font-weight:800}
+
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,40px);background:var(--ink);color:#fff;padding:.8rem 1.2rem;border-radius:var(--r-pill);opacity:0;transition:.3s;z-index:300;pointer-events:none;font-weight:600}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.hide{display:none!important}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+}
+@media print{.hdr,.dock,.chat,.hero-3d{display:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<header class="hdr" id="hdr">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="Nisir Microfinance, home"><img class="logo" src="assets/nisir-logo.webp" width="601" height="337" alt="Nisir Microfinance | ንስር ማይክሮፋይናንስ" fetchpriority="high" decoding="async"></a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <ul>
+        <li><a class="l" href="#home" data-i18n="nav.home">Home</a></li>
+        <li><a class="l" href="#about" data-i18n="nav.about">About us</a></li>
+        <li class="has-sub"><a class="l" href="#services" data-i18n="nav.services">Services</a>
+          <ul class="sub">
+            <li><a href="#services" data-tab="saving" data-i18n="svc.saving">Saving solutions</a></li>
+            <li><a href="#services" data-tab="credit" data-i18n="svc.credit">Credit services</a></li>
+            <li><a href="#kacha" data-i18n="svc.digital">Digital and Kacha banking</a></li>
+            <li><a href="#services" data-tab="tariffs" data-i18n="svc.tariffs">Tariffs</a></li>
+          </ul></li>
+        <li><a class="l" href="#branches" data-i18n="nav.branches">Branches</a></li>
+        <li class="has-sub"><a class="l" href="#resources" data-i18n="nav.resources">Resources</a>
+          <ul class="sub">
+            <li><a href="#resources" data-i18n="res.agm">Shareholder AGM announcements</a></li>
+            <li><a href="#resources" data-i18n="res.vac">Vacancies</a></li>
+            <li><a href="#faq" data-i18n="res.faq">FAQ</a></li>
+          </ul></li>
+      </ul>
+      <a class="btn sm apply-in" href="#apply" data-i18n="nav.apply" style="margin-top:8px">Apply for a loan</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="am" aria-pressed="false" lang="am">አማ</button>
+    </div>
+    <a class="btn sm apply-top" href="#apply" data-i18n="nav.apply">Apply for a loan</a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+<!-- HERO -->
+<section class="hero" id="home" aria-labelledby="h1">
+  <div class="hero-3d" id="stage" aria-hidden="true"><canvas id="gl"></canvas></div>
+  <div class="wrap">
+    <div class="hero-copy">
+      <h1 class="motto" id="h1"><span data-i18n="hero.h1">Nisir: A treasure for all</span><span class="am" lang="am" data-show-lang="en">ንስር የሁላችን ሃብት!</span></h1>
+      <p class="lead" data-i18n="hero.sub">Savings, loans and digital banking built for small businesses and working families across Ethiopia.</p>
+      <div class="cta">
+        <a class="btn" href="#apply" data-i18n="nav.apply">Apply for a loan</a>
+        <a class="btn ghost" href="#calculators" data-i18n="hero.cta2">Try the calculators</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-note" data-i18n="hero.note">Drag the coins. Everything here is built from Nisir's own rates.</div>
+</section>
+
+<section class="stats" aria-label="Nisir in numbers">
+  <div class="wrap"><div class="stats-in">
+    <div class="stat"><b><span data-count="10">0</span><i>+</i></b><span data-i18n="st.years">Years of experience</span></div>
+    <div class="stat"><b><span data-count="45000">0</span><i>+</i></b><span data-i18n="st.clients">Active clients</span></div>
+    <div class="stat"><b><span data-count="24">0</span></b><span data-i18n="st.branches">Branches</span></div>
+    <div class="stat"><b><span data-count="250">0</span><i>+</i></b><span data-i18n="st.staff">Employees</span></div>
+  </div></div>
+</section>
+
+<section class="trust" aria-label="Trust">
+  <div class="wrap trust-row">
+    <div class="badge"><svg viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="17" r="16" fill="#0E1642"/><path d="M17 6l9 4v7c0 5-4 8-9 11-5-3-9-6-9-11v-7z" fill="none" stroke="#E2A72E" stroke-width="2"/><path d="M12.5 17l3.2 3.2 6-6.4" fill="none" stroke="#E2A72E" stroke-width="2.4"/></svg><div><span data-i18n="tr.nbe">Licensed and regulated by the National Bank of Ethiopia</span></div></div>
+    <div class="badge"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="9" fill="#2A3A8C"/><path d="M9 24V10l16 14V10" fill="none" stroke="#fff" stroke-width="2.6"/></svg><div>ICSFS<small data-i18n="tr.icsfs">ICS BANKS Microfinance core banking</small></div></div>
+    <div class="badge"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="9" fill="#E2A72E"/><circle cx="17" cy="17" r="6" fill="#0E1642"/></svg><div>Kacha<small data-i18n="tr.kacha">Digital wallet savings and credit</small></div></div>
+    <div class="badge"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="9" fill="#1B2670"/><text x="17" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#E2A72E" font-family="Georgia">2014</text></svg><div data-i18n="tr.est">Established 2014, Addis Ababa</div></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="sec" id="about">
+  <div class="wrap about-grid">
+    <div>
+      <span class="tag" data-i18n="ab.tag">About Nisir</span>
+      <h2 data-i18n="ab.h">Finance for the missing middle</h2>
+      <p class="lead" data-i18n="ab.p">Nisir serves micro, small and medium enterprises that banks overlook, along with low-income but economically active people and salaried employees. Because money doesn't come with instructions, we explain every product in plain words.</p>
+      <div class="values">
+        <p data-i18n="v1">We live our promises to customers.</p>
+        <p data-i18n="v2">We are members of one Nisir family.</p>
+        <p data-i18n="v3">We continuously learn, evolve and adapt.</p>
+        <p data-i18n="v4">We finance sustainable progress through responsible finance.</p>
+      </div>
+      <div class="ceo"><i aria-hidden="true">D</i><div><b>Dawit Wakgari</b><span data-i18n="ceo.role">Chief Executive Officer</span></div></div>
+    </div>
+    <div class="vm">
+      <div><h3 data-i18n="vis.h">Vision</h3><p data-i18n="vis.p">To be a beacon of swift and seamless financial solutions for underserved individuals and SMEs.</p></div>
+      <div><h3 data-i18n="mis.h">Mission</h3><p data-i18n="mis.p">To provide trusted, win-win and need-based financial solutions to customers, and sustainable value to stakeholders, through a people-centered and intelligent system.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec mist" id="services">
+  <div class="wrap">
+    <span class="tag" data-i18n="svc.tag">Services</span>
+    <h2 data-i18n="svc.h">Save, borrow and bank from your phone</h2>
+    <div class="tabs" role="tablist" id="svcTabs" aria-label="Services"></div>
+    <div id="svcPanel" role="tabpanel" tabindex="0"></div>
+  </div>
+</section>
+
+<!-- CALCULATORS -->
+<section class="sec dark" id="calculators">
+  <div class="wrap">
+    <span class="tag" data-i18n="ca.tag">Calculators</span>
+    <h2 data-i18n="ca.h">See the numbers before you decide</h2>
+    <p class="lead" data-i18n="ca.p">Move the sliders. Results update instantly. They are estimates, and your loan officer confirms the final figures.</p>
+    <div class="tabs" role="tablist" id="calTabs" aria-label="Calculators"></div>
+    <div id="calBody"></div>
+  </div>
+</section>
+
+<!-- KACHA -->
+<section class="sec" id="kacha">
+  <div class="wrap kacha">
+    <div>
+      <span class="tag" data-i18n="ka.tag">Kacha digital</span>
+      <h2 data-i18n="ka.h">Open savings with 5 ETB, no branch visit</h2>
+      <p class="lead" data-i18n="ka.p">Walk through both digital products on the phone. Pick a path, then tap through each step.</p>
+      <div class="chips light" id="kPath" role="group" aria-label="Path" style="margin:18px 0 0"></div>
+      <ol class="steps-list" id="kSteps"></ol>
+      <p class="kacha-note" data-i18n="ka.note">Illustrative walkthrough. Screens in the live Kacha app may look different.</p>
+    </div>
+    <div class="phone-stage" id="phoneStage"><div class="phone" id="phone"><div class="screen" id="screen"></div></div></div>
+  </div>
+</section>
+
+<!-- WIZARD -->
+<section class="sec mist" id="apply">
+  <div class="wrap">
+    <span class="tag" data-i18n="wz.tag">Apply</span>
+    <h2 data-i18n="wz.h">Apply for a loan in four short steps</h2>
+    <p class="lead" data-i18n="wz.p">Your answers stay on this page until you submit. A loan officer from your chosen branch will contact you.</p>
+    <div class="card-l wizard" id="wizard" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- DOCUMENTS -->
+<section class="sec" id="documents">
+  <div class="wrap">
+    <span class="tag" data-i18n="dc.tag">Documents</span>
+    <h2 data-i18n="dc.h">Bring only what your loan needs</h2>
+    <p class="lead" data-i18n="dc.p">Pick the collateral or loan type. We build your checklist in Amharic and English.</p>
+    <div class="docs-head">
+      <div class="chips light" id="dcType" role="group" aria-label="Loan type"></div>
+      <div class="meter"><span id="dcMeterTxt"></span><div class="prog"><i id="dcMeter" style="width:0"></i></div></div>
+    </div>
+    <ul class="checklist" id="dcList"></ul>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:22px">
+      <button class="btn teal sm" id="dcCopy" type="button" data-i18n="dc.copy">Copy checklist</button>
+      <button class="btn ghost sm" id="dcPrint" type="button" style="color:var(--ink)" data-i18n="dc.print">Print</button>
+    </div>
+  </div>
+</section>
+
+<!-- TRACKER -->
+<section class="sec mist" id="track">
+  <div class="wrap">
+    <span class="tag" data-i18n="tk.tag">Track</span>
+    <h2 data-i18n="tk.h">Where is my application?</h2>
+    <div class="track-wrap">
+      <form class="card-l" style="padding:26px" id="tkForm" novalidate>
+        <div class="fg" style="margin-bottom:14px"><label for="tkPhone" data-i18n="tk.phone">Phone number</label><input class="fi" id="tkPhone" inputmode="tel" autocomplete="tel" placeholder="09XXXXXXXX"><div class="err" id="tkPhoneE"></div></div>
+        <div class="fg" style="margin-bottom:14px"><label for="tkRef" data-i18n="tk.ref">Reference ID</label><input class="fi" id="tkRef" placeholder="NSR-XXXXXX" autocapitalize="characters"><div class="err" id="tkRefE"></div></div>
+        <button class="btn teal" type="submit" data-i18n="tk.go">Check status</button>
+        <p class="kacha-note" data-i18n="tk.hint">You received the reference ID when you applied. Try NSR-DEMO-3 to preview the tracker.</p>
+      </form>
+      <div class="card-l" style="padding:26px" id="tkOut" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- BRANCHES -->
+<section class="sec" id="branches">
+  <div class="wrap">
+    <span class="tag" data-i18n="br.tag">Branches</span>
+    <h2 data-i18n="br.h">24 branches, one near you</h2>
+    <div class="bar-tools">
+      <input class="fi" id="brQ" type="search" data-i18n-ph="br.search" placeholder="Search branch, landmark or sub-city" aria-label="Search branches">
+      <select class="fi" id="brSC" aria-label="Sub-city"></select>
+      <button class="btn teal" id="brNear" type="button" data-i18n="br.near">Near me</button>
+    </div>
+    <div class="bcount" id="brCount" aria-live="polite"></div>
+    <div class="branches" id="brList"></div>
+
+    <div class="card-l cb light" id="callback">
+      <h3 data-i18n="cb.h">Book a call from a loan officer</h3>
+      <p class="lead" style="font-size:1rem" data-i18n="cb.p">Pick a branch and a time. The loan officer calls you.</p>
+      <form id="cbForm" novalidate>
+        <div class="grid2">
+          <div class="fg"><label for="cbBranch" data-i18n="cb.branch">Branch</label><select class="fi" id="cbBranch"></select></div>
+          <div class="fg"><label for="cbTopic" data-i18n="cb.topic">Topic</label><select class="fi" id="cbTopic"></select></div>
+          <div class="fg full"><span class="lbl" style="color:var(--text)" data-i18n="cb.day">Day</span><div class="slots" id="cbDays"></div></div>
+          <div class="fg full"><span class="lbl" style="color:var(--text)" data-i18n="cb.time">Time</span><div class="slots" id="cbTimes"></div><div class="err" id="cbSlotE"></div></div>
+          <div class="fg"><label for="cbName" data-i18n="cb.name">Your name</label><input class="fi" id="cbName" autocomplete="name"><div class="err" id="cbNameE"></div></div>
+          <div class="fg"><label for="cbPhone" data-i18n="tk.phone">Phone number</label><input class="fi" id="cbPhone" inputmode="tel" autocomplete="tel" placeholder="09XXXXXXXX"><div class="err" id="cbPhoneE"></div></div>
+        </div>
+        <div class="wiz-nav"><span></span><button class="btn teal" type="submit" data-i18n="cb.go">Book the call</button></div>
+      </form>
+      <div id="cbDone" class="success hide"></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESOURCES -->
+<section class="sec mist" id="resources">
+  <div class="wrap faq-grid">
+    <div>
+      <span class="tag" data-i18n="rs.tag">Resources</span>
+      <h2 data-i18n="rs.h">Announcements, jobs and answers</h2>
+      <div class="res-links">
+        <div class="box"><h3 data-i18n="res.agm">Shareholder AGM announcements</h3><p data-i18n="rs.agm">Meeting notices for shareholders are posted here. Questions: info@nisirmfi.com.</p></div>
+        <div class="box"><h3 data-i18n="res.vac">Vacancies</h3><p data-i18n="rs.vac">For current openings, email info@nisirmfi.com or visit your nearest branch.</p></div>
+      </div>
+      <h3 id="faq" data-i18n="res.faq">FAQ</h3>
+      <div class="loans" id="faqList"></div>
+    </div>
+    <div>
+      <h3 data-i18n="tf.h">Service tariffs</h3>
+      <div id="tariffMini"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-g">
+    <div>
+      <img class="logo foot-logo" src="assets/nisir-logo.webp" width="601" height="337" alt="Nisir Microfinance | ንስር ማይክሮፋይናንስ" loading="lazy" decoding="async">
+      <p data-i18n="ft.p">Nisir Microfinance Institution Share Company, established in 2014 under the 1960 Commercial Code of Ethiopia.</p>
+      <p lang="am">ንስር የሁላችን ሃብት!</p>
+    </div>
+    <div>
+      <h4 data-i18n="ft.contact">Contact</h4>
+      <ul>
+        <li><a href="tel:9404">9404 <span data-i18n="ft.cc">(Customer contact center)</span></a></li>
+        <li><a href="tel:+251115622225">+251 115 622 225</a></li>
+        <li><a href="tel:+251115622371">+251 115 622 371</a></li>
+        <li><a href="mailto:info@nisirmfi.com">info@nisirmfi.com</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="ft.hq">Headquarters</h4>
+      <p data-i18n="ft.addr">Nisir Building, European Union Street (Rwanda area), Addis Ababa, Ethiopia</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=Nisir+Microfinance+European+Union+Street+Addis+Ababa" target="_blank" rel="noopener" data-i18n="br.dir">Get directions</a>
+    </div>
+  </div>
+  <div class="wrap fine">&copy; <span id="yr"></span> Nisir Microfinance Institution S.C. <span data-i18n="ft.rights">All rights reserved.</span></div>
+</footer>
+
+<!-- support dock -->
+<div class="dock" id="dock">
+  <div class="dock-list" id="dockList">
+    <button class="dock-item" type="button" id="dkChat"><i style="background:var(--teal)">AI</i><span data-i18n="dk.chat">Ask Nisir assistant</span></button>
+    <a class="dock-item" id="dkTg" target="_blank" rel="noopener"><i style="background:#2AA3DD">T</i><span>Telegram</span></a>
+    <a class="dock-item" id="dkWa" target="_blank" rel="noopener"><i style="background:#25A559">W</i><span>WhatsApp</span></a>
+    <a class="dock-item" href="tel:9404"><i style="background:var(--clay)">9404</i><span data-i18n="dk.call">Call 9404</span></a>
+  </div>
+  <button class="dock-main" id="dockBtn" type="button" aria-expanded="false" aria-label="Support"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-5.8A8 8 0 1 1 21 12z"/></svg></button>
+</div>
+
+<section class="chat" id="chat" role="dialog" aria-label="Nisir assistant" aria-modal="false">
+  <header><div><b data-i18n="ch.title">Nisir assistant</b><small data-i18n="ch.sub">Amharic and English, 24/7</small></div><button type="button" id="chClose" aria-label="Close">&times;</button></header>
+  <div class="msgs" id="msgs" aria-live="polite"></div>
+  <div class="sugg" id="sugg"></div>
+  <form id="chForm"><input id="chIn" autocomplete="off" aria-label="Message" data-i18n-ph="ch.ph" placeholder="Ask about rates, loans, Kacha"><button type="submit" aria-label="Send">&#10148;</button></form>
+</section>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ============ CONFIG: edit before launch ============ */
+const CONFIG={
+  apiBase:'',                       // e.g. 'https://api.nisirmfi.com'  POST /applications, /callbacks, GET /applications/status
+  aiEndpoint:'',                    // optional LLM endpoint. If set, POST {message,lang} -> {reply}. Otherwise the built-in knowledge base answers.
+  telegram:'https://t.me/NisirMFI', // TODO replace with the real support bot link
+  whatsapp:'251115622225',          // TODO replace with the WhatsApp Business number (digits only, country code first)
+  loanRates:{sme:18,micro:18,specific:18,personal:16}, // ILLUSTRATIVE annual rates. Replace with Nisir's approved rates.
+  withholdingTax:5
+};
+
+/* ============ i18n ============ */
+const I={en:{
+'skip':'Skip to content','brand.sub':'Microfinance','nav.home':'Home','nav.about':'About us','nav.services':'Services','nav.branches':'Branches','nav.resources':'Resources','nav.apply':'Apply for a loan',
+'svc.saving':'Saving solutions','svc.credit':'Credit services','svc.digital':'Digital and Kacha banking','svc.tariffs':'Tariffs','res.agm':'Shareholder AGM announcements','res.vac':'Vacancies','res.faq':'FAQ',
+'hero.h1':'Nisir: A treasure for all','hero.sub':'Savings, loans and digital banking built for small businesses and working families across Ethiopia.','hero.cta2':'Try the calculators','hero.note':'Drag the coins. Everything here is built from Nisir\'s own rates.',
+'st.years':'Years of experience','st.clients':'Active clients','st.branches':'Branches','st.staff':'Employees',
+'tr.nbe':'Licensed and regulated by the National Bank of Ethiopia','tr.icsfs':'ICS BANKS Microfinance core banking','tr.kacha':'Digital wallet savings and credit','tr.est':'Established 2014, Addis Ababa',
+'ab.tag':'About Nisir','ab.h':'Finance for the missing middle','ab.p':'Nisir serves micro, small and medium enterprises that banks overlook, along with low-income but economically active people and salaried employees. Because money doesn\'t come with instructions, we explain every product in plain words.',
+'v1':'We live our promises to customers.','v2':'We are members of one Nisir family.','v3':'We continuously learn, evolve and adapt.','v4':'We finance sustainable progress through responsible finance.','ceo.role':'Chief Executive Officer',
+'vis.h':'Vision','vis.p':'To be a beacon of swift and seamless financial solutions for underserved individuals and SMEs.','mis.h':'Mission','mis.p':'To provide trusted, win-win and need-based financial solutions to customers, and sustainable value to stakeholders, through a people-centered and intelligent system.',
+'svc.tag':'Services','svc.h':'Save, borrow and bank from your phone','tab.saving':'Savings','tab.credit':'Loans','tab.digital':'Digital (Kacha)','tab.tariffs':'Tariffs',
+'sv.per':'per year','sv.min':'Minimum','sv.apply':'Apply for this loan','sv.calc':'Estimate repayments','sv.walk':'See the Kacha walkthrough','sv.terms':'Term',
+'ca.tag':'Calculators','ca.h':'See the numbers before you decide','ca.p':'Move the sliders. Results update instantly. They are estimates, and your loan officer confirms the final figures.',
+'ca.loan':'Loan repayment','ca.save':'Savings growth','ca.type':'Loan type','ca.amount':'Amount (ETB)','ca.term':'Term (months)','ca.rate':'Annual interest rate','ca.pay':'Payment','ca.monthly':'every month','ca.quarterly':'every 3 months','ca.int':'Total interest','ca.total':'Total repayable','ca.prin':'Principal','ca.rateNote':'Illustrative rate. Your loan officer sets the final rate.','ca.cap':'Maximum for this loan type is',
+'ca.prod':'Savings product','ca.dep':'Deposit (ETB)','ca.mo':'Period (months)','ca.earn':'You earn','ca.end':'Balance at the end','ca.gross':'Interest before tax','ca.net':'After 5% withholding tax','ca.saveNote':'Simple-interest estimate. Time deposit rates are negotiable between 12% and 15%.','ca.min':'Minimum deposit is','ca.maxd':'Maximum is','ca.range':'range',
+'ka.tag':'Kacha digital','ka.h':'Open savings with 5 ETB, no branch visit','ka.p':'Walk through both digital products on the phone. Pick a path, then tap through each step.','ka.note':'Illustrative walkthrough. Screens in the live Kacha app may look different.','ka.reg':'Regular savings','ka.td':'Time deposit','ka.next':'Next','ka.restart':'Start again','ka.min':'Minimum 5 ETB, up to 100,000 ETB','ka.minTd':'Minimum 5,000 ETB, no maximum','ka.early':'Early withdrawal pays 10% a year.','ka.tax':'Interest is paid on the minimum monthly balance, after 5% withholding tax.',
+'wz.tag':'Apply','wz.h':'Apply for a loan in four short steps','wz.p':'Your answers stay on this page until you submit. A loan officer from your chosen branch will contact you.',
+'wz.s1':'Personal','wz.s2':'Location','wz.s3':'Business','wz.s4':'Loan','wz.back':'Back','wz.next':'Continue','wz.submit':'Submit application','wz.step':'Step','wz.of':'of',
+'f.title':'Title','f.first':'First name','f.father':'Father\'s name','f.grand':'Grandfather\'s name','f.dob':'Date of birth','f.gender':'Gender','f.marital':'Marital status','f.m1':'Mobile number','f.m2':'Second mobile (optional)','f.kebele':'Kebele ID number','f.email':'Email (optional)',
+'f.region':'Region','f.subcity':'Sub-city','f.woreda':'Woreda','f.zone':'Zone','f.place':'Specific location','f.branch':'Nearest Nisir branch',
+'f.legal':'Legal status','f.sector':'Business sector','f.detail':'What does your business do?','f.licdate':'License registration date',
+'f.ltype':'Loan type','f.lamt':'Loan amount (ETB)','f.purpose':'Purpose of the loan','f.terms':'I confirm the information is correct and agree to Nisir\'s terms.','f.select':'Select',
+'e.req':'This field is required.','e.phone':'Enter a valid Ethiopian mobile number, like 0912345678.','e.email':'Enter a valid email address.','e.age':'You must be 18 or older.','e.amt':'Enter an amount above zero.','e.micro':'Business Development Micro Loan is limited to 50,000 ETB.','e.pers':'Personal Consumption Loan ranges from 40,000 to 200,000 ETB.','e.terms':'Please accept the terms to continue.','e.ref':'Reference IDs look like NSR-XXXXXX.',
+'wz.review':'Please review','wz.okh':'Application received','wz.okp':'Save this reference ID. You need it with your phone number to track your application.','wz.track':'Track my application','wz.new':'Start a new application','wz.sending':'Sending...','wz.fail':'We could not send your application. Check your connection and try again, or call 9404.',
+'dc.tag':'Documents','dc.h':'Bring only what your loan needs','dc.p':'Pick the collateral or loan type. We build your checklist in Amharic and English.','dc.copy':'Copy checklist','dc.print':'Print','dc.copied':'Checklist copied','dc.ready':'ready','dc.vehicle':'Vehicle collateral','dc.property':'Property collateral','dc.construction':'Construction loan','dc.salary':'Salary-based loan','dc.cond':'Only if it applies',
+'tk.tag':'Track','tk.h':'Where is my application?','tk.phone':'Phone number','tk.ref':'Reference ID','tk.go':'Check status','tk.hint':'You received the reference ID when you applied. Try NSR-DEMO-3 to preview the tracker.','tk.none':'We could not find an application with those details. Check the phone number and reference ID, or call 9404.','tk.empty':'Enter your phone number and reference ID to see your stage.','tk.s1':'Application received','tk.s1d':'We have your form.','tk.s2':'Document review','tk.s2d':'We check your documents.','tk.s3':'Field assessment','tk.s3d':'An officer visits your business.','tk.s4':'Credit committee','tk.s4d':'The committee decides.','tk.s5':'Disbursement','tk.s5d':'Funds go to your account.','tk.ref2':'Reference','tk.demo':'Demo data. Connect the status API to show live stages.',
+'br.tag':'Branches','br.h':'24 branches, one near you','br.search':'Search branch, landmark or sub-city','br.near':'Near me','br.all':'All sub-cities','br.dir':'Get directions','br.call':'Call','br.book':'Book a call','br.count':'branches shown','br.none':'No branch matches that search. Try a landmark or the area name.','br.away':'km away (approx.)','br.nophone':'Call 9404 for this branch','br.hq':'HQ','br.geo':'Allow location access to sort by distance.','br.sorted':'Sorted by distance from you.',
+'cb.h':'Book a call from a loan officer','cb.p':'Pick a branch and a time. The loan officer calls you.','cb.branch':'Branch','cb.topic':'Topic','cb.day':'Day','cb.time':'Time','cb.name':'Your name','cb.go':'Book the call','cb.slot':'Choose a day and a time.','cb.okh':'Call booked','cb.ics':'Add to calendar','cb.t1':'SME loan','cb.t2':'Business development micro loan','cb.t3':'Specific purpose loan','cb.t4':'Personal consumption loan','cb.t5':'Savings','cb.again':'Book another call',
+'rs.tag':'Resources','rs.h':'Announcements, jobs and answers','rs.agm':'Meeting notices for shareholders are posted here. Questions: info@nisirmfi.com.','rs.vac':'For current openings, email info@nisirmfi.com or visit your nearest branch.',
+'tf.h':'Service tariffs','tf.service':'Service','tf.fee':'Fee','tf.t1':'Outgoing RTGS transfer (MT 103)','tf.t1f':'100 ETB + 15% VAT','tf.t2':'Incoming RTGS transfer (MT 103 and MT 102)','tf.t3':'Internal transfer between Nisir accounts','tf.t4':'Loan repayment transfer and cash withdrawal (within NBE limits)','tf.t5':'Local Money Transfer Service for loan repayments','tf.free':'Free',
+'ft.p':'Nisir Microfinance Institution Share Company, established in 2014 under the 1960 Commercial Code of Ethiopia.','ft.contact':'Contact','ft.cc':'(Customer contact center)','ft.hq':'Headquarters','ft.addr':'Nisir Building, European Union Street (Rwanda area), Addis Ababa, Ethiopia','ft.rights':'All rights reserved.',
+'dk.chat':'Ask Nisir assistant','dk.call':'Call 9404','ch.title':'Nisir assistant','ch.sub':'Amharic and English, 24/7','ch.ph':'Ask about rates, loans, Kacha','ch.hi':'Hello! I can answer questions about Nisir savings rates, loans, documents, Kacha and branches. What would you like to know?','ch.fb':'I do not have a confident answer to that. Call 9404 or visit a branch and a Nisir officer will help.','ch.q1':'Savings rates','ch.q2':'Which loan fits me?','ch.q3':'Documents needed','ch.q4':'Kacha limits','ch.q5':'Fees',
+'toast.err':'Please fix the highlighted fields.'
+},am:{
+'skip':'ወደ ዋናው ይዘት ዝለል','brand.sub':'ማይክሮፋይናንስ','nav.home':'መነሻ','nav.about':'ስለ እኛ','nav.services':'አገልግሎቶች','nav.branches':'ቅርንጫፎች','nav.resources':'መረጃዎች','nav.apply':'ብድር ይጠይቁ',
+'svc.saving':'የቁጠባ አገልግሎቶች','svc.credit':'የብድር አገልግሎቶች','svc.digital':'ዲጂታል እና ካቻ ባንኪንግ','svc.tariffs':'የአገልግሎት ታሪፍ','res.agm':'የባለአክሲዮኖች ጠቅላላ ጉባኤ ማስታወቂያ','res.vac':'ክፍት የሥራ ቦታዎች','res.faq':'ተደጋግመው የሚጠየቁ ጥያቄዎች',
+'hero.h1':'ንስር የሁላችን ሃብት!','hero.sub':'በኢትዮጵያ ለሚገኙ አነስተኛ ንግዶችና ሠርተው ለሚኖሩ ቤተሰቦች የተዘጋጀ ቁጠባ፣ ብድር እና ዲጂታል ባንኪንግ።','hero.cta2':'ማስያዎችን ይሞክሩ','hero.note':'ሳንቲሞቹን ይጎትቱ። እዚህ ያለው ሁሉ በንስር ራሱ ተመኖች የተሠራ ነው።',
+'st.years':'የአገልግሎት ዓመታት','st.clients':'ንቁ ደንበኞች','st.branches':'ቅርንጫፎች','st.staff':'ሠራተኞች',
+'tr.nbe':'በኢትዮጵያ ብሔራዊ ባንክ ፈቃድ ያለውና የሚቆጣጠረው','tr.icsfs':'ICS BANKS የማይክሮፋይናንስ ኮር ባንኪንግ','tr.kacha':'የዲጂታል ዋሌት ቁጠባና ብድር','tr.est':'በ2014 የተቋቋመ፣ አዲስ አበባ',
+'ab.tag':'ስለ ንስር','ab.h':'ለ"መሃል ጎደሎዎቹ" የፋይናንስ አገልግሎት','ab.p':'ንስር ባንኮች የሚዘሏቸውን ጥቃቅን፣ አነስተኛና መካከለኛ ንግዶች፣ እንዲሁም አነስተኛ ገቢ ያላቸው ግን ንቁ ሰዎችንና ደመወዝተኞችን ያገለግላል። ገንዘብ መመሪያ ይዞ አይመጣምና እያንዳንዱን አገልግሎት በግልጽ ቋንቋ እናብራራለን።',
+'v1':'ለደንበኞቻችን የገባነውን ቃል እንኖራለን።','v2':'የአንድ የንስር ቤተሰብ አባላት ነን።','v3':'ሁልጊዜ እንማራለን፣ እናድጋለን፣ እንለማመዳለን።','v4':'ኃላፊነት በተሞላበት ፋይናንስ ዘላቂ እድገትን እናስገኛለን።','ceo.role':'ዋና ሥራ አስፈጻሚ',
+'vis.h':'ራዕይ','vis.p':'ዕድል ላልተሰጣቸው ግለሰቦችና አነስተኛ እና መካከለኛ ድርጅቶች ፈጣንና ቀልጣፋ የፋይናንስ መፍትሔ ብርሃን መሆን።','mis.h':'ተልዕኮ','mis.p':'ሰውን ማዕከል ባደረገና ብልህ ሥርዓት አማካኝነት ለደንበኞች ታማኝ፣ ሁለቱንም የሚጠቅምና ፍላጎትን መሠረት ያደረገ የፋይናንስ መፍትሔ፣ ለባለድርሻዎች ደግሞ ዘላቂ ዋጋ መስጠት።',
+'svc.tag':'አገልግሎቶች','svc.h':'ከስልክዎ ይቆጥቡ፣ ይበደሩ፣ ባንክ ይጠቀሙ','tab.saving':'ቁጠባ','tab.credit':'ብድር','tab.digital':'ዲጂታል (ካቻ)','tab.tariffs':'ታሪፍ',
+'sv.per':'በዓመት','sv.min':'ዝቅተኛ','sv.apply':'ለዚህ ብድር ያመልክቱ','sv.calc':'ክፍያውን ይገምቱ','sv.walk':'የካቻ መመሪያውን ይመልከቱ','sv.terms':'ጊዜ',
+'ca.tag':'ማስያዎች','ca.h':'ከመወሰንዎ በፊት ቁጥሮቹን ይመልከቱ','ca.p':'ተንሸራታቾቹን ያንቀሳቅሱ። ውጤቱ ወዲያውኑ ይቀየራል። ግምት ብቻ ነው፤ የመጨረሻውን ቁጥር የብድር ባለሙያዎ ያረጋግጣል።',
+'ca.loan':'የብድር ክፍያ','ca.save':'የቁጠባ ዕድገት','ca.type':'የብድር ዓይነት','ca.amount':'መጠን (ብር)','ca.term':'ጊዜ (ወራት)','ca.rate':'ዓመታዊ የወለድ ምጣኔ','ca.pay':'ክፍያ','ca.monthly':'በየወሩ','ca.quarterly':'በየ3 ወሩ','ca.int':'ጠቅላላ ወለድ','ca.total':'ጠቅላላ የሚከፈል','ca.prin':'ዋና ገንዘብ','ca.rateNote':'ለምሳሌ የተቀመጠ ምጣኔ ነው። የመጨረሻውን ምጣኔ የብድር ባለሙያው ይወስናል።','ca.cap':'ለዚህ ብድር ከፍተኛው',
+'ca.prod':'የቁጠባ ዓይነት','ca.dep':'ተቀማጭ (ብር)','ca.mo':'ጊዜ (ወራት)','ca.earn':'የሚያገኙት ወለድ','ca.end':'መጨረሻ ላይ ቀሪ ሂሳብ','ca.gross':'ከግብር በፊት ወለድ','ca.net':'ከ5% ግብር በኋላ','ca.saveNote':'ቀላል ወለድ ግምት። የጊዜ ገደብ ቁጠባ ምጣኔ ከ12% እስከ 15% ይደራደራል።','ca.min':'ዝቅተኛ ተቀማጭ','ca.maxd':'ከፍተኛው','ca.range':'ክልል',
+'ka.tag':'ካቻ ዲጂታል','ka.h':'በ5 ብር ቁጠባ ይክፈቱ፣ ቅርንጫፍ መሄድ አያስፈልግም','ka.p':'ሁለቱንም የዲጂታል አገልግሎቶች በስልኩ ላይ ይመልከቱ። መንገድ ይምረጡና እያንዳንዱን ደረጃ ይጫኑ።','ka.note':'ማሳያ ብቻ ነው። በእውነተኛው የካቻ መተግበሪያ ላይ ገጾቹ ሊለያዩ ይችላሉ።','ka.reg':'መደበኛ ቁጠባ','ka.td':'የጊዜ ገደብ ቁጠባ','ka.next':'ቀጥል','ka.restart':'እንደገና ጀምር','ka.min':'ዝቅተኛ 5 ብር፣ ከፍተኛ 100,000 ብር','ka.minTd':'ዝቅተኛ 5,000 ብር፣ ከፍተኛ ገደብ የለውም','ka.early':'ቀድሞ ማውጣት በዓመት 10% ወለድ ያስገኛል።','ka.tax':'ወለድ በወሩ ዝቅተኛ ቀሪ ሂሳብ ላይ ይሰላል፣ ከ5% ግብር በኋላ።',
+'wz.tag':'ማመልከቻ','wz.h':'በአራት አጫጭር ደረጃዎች ብድር ይጠይቁ','wz.p':'እስኪልኩ ድረስ መልሶችዎ በዚህ ገጽ ላይ ይቆያሉ። የመረጡት ቅርንጫፍ የብድር ባለሙያ ያገኝዎታል።',
+'wz.s1':'የግል','wz.s2':'አድራሻ','wz.s3':'ንግድ','wz.s4':'ብድር','wz.back':'ተመለስ','wz.next':'ቀጥል','wz.submit':'ማመልከቻ ላክ','wz.step':'ደረጃ','wz.of':'ከ',
+'f.title':'ማዕረግ','f.first':'ስም','f.father':'የአባት ስም','f.grand':'የአያት ስም','f.dob':'የትውልድ ዘመን','f.gender':'ጾታ','f.marital':'የጋብቻ ሁኔታ','f.m1':'ሞባይል ቁጥር','f.m2':'ሁለተኛ ሞባይል (አማራጭ)','f.kebele':'የቀበሌ መታወቂያ ቁጥር','f.email':'ኢሜይል (አማራጭ)',
+'f.region':'ክልል','f.subcity':'ክፍለ ከተማ','f.woreda':'ወረዳ','f.zone':'ዞን','f.place':'ልዩ ቦታ','f.branch':'የትኛው የንስር ቅርንጫፍ ለእርስዎ ይቀርባል',
+'f.legal':'የንግድ ሕጋዊ ሁኔታ','f.sector':'የንግድ ዘርፍ','f.detail':'ንግድዎ ምን ይሠራል?','f.licdate':'የንግድ ፈቃድ የተመዘገበበት ቀን',
+'f.ltype':'የብድር ዓይነት','f.lamt':'የብድር መጠን (ብር)','f.purpose':'የብድሩ ጥያቄ ዓላማ','f.terms':'መረጃው ትክክል መሆኑን አረጋግጣለሁ፤ በንስር ውሎች እስማማለሁ።','f.select':'ይምረጡ',
+'e.req':'ይህ መስክ ያስፈልጋል።','e.phone':'ትክክለኛ የኢትዮጵያ ሞባይል ቁጥር ያስገቡ፣ ለምሳሌ 0912345678።','e.email':'ትክክለኛ ኢሜይል ያስገቡ።','e.age':'ዕድሜዎ 18 እና ከዚያ በላይ መሆን አለበት።','e.amt':'ከዜሮ በላይ መጠን ያስገቡ።','e.micro':'የንግድ ልማት አነስተኛ ብድር ከ50,000 ብር መብለጥ አይችልም።','e.pers':'የግል ፍጆታ ብድር ከ40,000 እስከ 200,000 ብር ነው።','e.terms':'ለመቀጠል ውሎቹን ይቀበሉ።','e.ref':'የማመሳከሪያ ቁጥር NSR-XXXXXX ይመስላል።',
+'wz.review':'እባክዎ ያረጋግጡ','wz.okh':'ማመልከቻዎ ደርሶናል','wz.okp':'ይህን የማመሳከሪያ ቁጥር ያስቀምጡ። ማመልከቻዎን ለመከታተል ከስልክ ቁጥርዎ ጋር ያስፈልግዎታል።','wz.track':'ማመልከቻዬን ተከታተል','wz.new':'አዲስ ማመልከቻ ጀምር','wz.sending':'በመላክ ላይ...','wz.fail':'ማመልከቻዎን መላክ አልተቻለም። ግንኙነትዎን ያረጋግጡና እንደገና ይሞክሩ፣ ወይም ወደ 9404 ይደውሉ።',
+'dc.tag':'ሰነዶች','dc.h':'ለብድርዎ የሚያስፈልጉትን ብቻ ይዘው ይምጡ','dc.p':'ዋስትናውን ወይም የብድር ዓይነቱን ይምረጡ። ዝርዝርዎን በአማርኛና በእንግሊዝኛ እናዘጋጃለን።','dc.copy':'ዝርዝሩን ቅዳ','dc.print':'አትም','dc.copied':'ዝርዝሩ ተቀድቷል','dc.ready':'ዝግጁ','dc.vehicle':'የመኪና ዋስትና','dc.property':'የቤት ዋስትና','dc.construction':'የቤት ሥራ ብድር','dc.salary':'በደመወዝ ላይ የተመሠረተ ብድር','dc.cond':'የሚመለከትዎ ከሆነ ብቻ',
+'tk.tag':'ክትትል','tk.h':'ማመልከቻዬ የት ደረሰ?','tk.phone':'ስልክ ቁጥር','tk.ref':'የማመሳከሪያ ቁጥር','tk.go':'ሁኔታውን ተመልከት','tk.hint':'የማመሳከሪያ ቁጥሩን ሲያመለክቱ ተሰጥቶዎታል። ለናሙና NSR-DEMO-3 ይሞክሩ።','tk.none':'በእነዚህ መረጃዎች ማመልከቻ አላገኘንም። ስልክ ቁጥሩንና የማመሳከሪያ ቁጥሩን ያረጋግጡ፣ ወይም ወደ 9404 ይደውሉ።','tk.empty':'ደረጃዎን ለማየት ስልክ ቁጥርና የማመሳከሪያ ቁጥር ያስገቡ።','tk.s1':'ማመልከቻ ደርሷል','tk.s1d':'ቅጽዎ ደርሶናል።','tk.s2':'የሰነድ ምርመራ','tk.s2d':'ሰነዶችዎን እንመረምራለን።','tk.s3':'የቦታ ላይ ግምገማ','tk.s3d':'ባለሙያ ንግድዎን ይጎበኛል።','tk.s4':'የብድር ኮሚቴ','tk.s4d':'ኮሚቴው ይወስናል።','tk.s5':'ብድር መልቀቅ','tk.s5d':'ገንዘቡ ወደ ሂሳብዎ ይገባል።','tk.ref2':'ማመሳከሪያ','tk.demo':'የናሙና መረጃ ነው። እውነተኛ ደረጃዎችን ለማሳየት የሁኔታ API ያገናኙ።',
+'br.tag':'ቅርንጫፎች','br.h':'24 ቅርንጫፎች፣ አንዱ ለእርስዎ ቅርብ ነው','br.search':'ቅርንጫፍ፣ ምልክት ቦታ ወይም ክፍለ ከተማ ይፈልጉ','br.near':'ለእኔ ቅርብ','br.all':'ሁሉም ክፍለ ከተሞች','br.dir':'አቅጣጫ አሳየኝ','br.call':'ደውል','br.book':'ጥሪ ያስይዙ','br.count':'ቅርንጫፎች ታይተዋል','br.none':'ከፍለጋው ጋር የሚገጥም ቅርንጫፍ የለም። የምልክት ቦታ ወይም የአካባቢ ስም ይሞክሩ።','br.away':'ኪ.ሜ ገደማ ይርቃል','br.nophone':'ለዚህ ቅርንጫፍ ወደ 9404 ይደውሉ','br.hq':'ዋና መሥሪያ ቤት','br.geo':'በርቀት ለመደርደር የአካባቢ ፈቃድ ይስጡ።','br.sorted':'ከእርስዎ ርቀት አንጻር ተደርድሯል።',
+'cb.h':'ከብድር ባለሙያ ጥሪ ያስይዙ','cb.p':'ቅርንጫፍና ሰዓት ይምረጡ። የብድር ባለሙያው ይደውልልዎታል።','cb.branch':'ቅርንጫፍ','cb.topic':'ርዕስ','cb.day':'ቀን','cb.time':'ሰዓት','cb.name':'ስምዎ','cb.go':'ጥሪውን አስይዝ','cb.slot':'ቀንና ሰዓት ይምረጡ።','cb.okh':'ጥሪው ተይዟል','cb.ics':'ወደ ቀን መቁጠሪያ ጨምር','cb.t1':'አነስተኛ እና መካከለኛ ንግድ ብድር','cb.t2':'የንግድ ልማት አነስተኛ ብድር','cb.t3':'ልዩ ዓላማ ብድር','cb.t4':'የግል ፍጆታ ብድር','cb.t5':'ቁጠባ','cb.again':'ሌላ ጥሪ አስይዝ',
+'rs.tag':'መረጃዎች','rs.h':'ማስታወቂያዎች፣ ሥራዎችና መልሶች','rs.agm':'የባለአክሲዮኖች ስብሰባ ማስታወቂያዎች እዚህ ይወጣሉ። ጥያቄ: info@nisirmfi.com።','rs.vac':'ለወቅታዊ ክፍት ቦታዎች ወደ info@nisirmfi.com ይጻፉ ወይም ቅርብ ቅርንጫፍ ይሂዱ።',
+'tf.h':'የአገልግሎት ታሪፍ','tf.service':'አገልግሎት','tf.fee':'ክፍያ','tf.t1':'ወጪ RTGS ዝውውር (MT 103)','tf.t1f':'100 ብር + 15% ተጨማሪ እሴት ታክስ','tf.t2':'ገቢ RTGS ዝውውር (MT 103 እና MT 102)','tf.t3':'በንስር ሂሳቦች መካከል የውስጥ ዝውውር','tf.t4':'የብድር ክፍያ ዝውውርና ገንዘብ ማውጣት (በብሔራዊ ባንክ ገደብ ውስጥ)','tf.t5':'ለብድር ክፍያ የአገር ውስጥ ገንዘብ ዝውውር አገልግሎት','tf.free':'ነፃ',
+'ft.p':'ንስር ማይክሮፋይናንስ ተቋም አክሲዮን ማኅበር፣ በ1960 የኢትዮጵያ ንግድ ሕግ መሠረት በ2014 የተቋቋመ።','ft.contact':'ያግኙን','ft.cc':'(የደንበኞች ማዕከል)','ft.hq':'ዋና መሥሪያ ቤት','ft.addr':'ንስር ሕንፃ፣ አውሮፓ ኅብረት ጎዳና (ሩዋንዳ አካባቢ)፣ አዲስ አበባ፣ ኢትዮጵያ','ft.rights':'መብቱ በሕግ የተጠበቀ ነው።',
+'dk.chat':'የንስር ረዳትን ይጠይቁ','dk.call':'ወደ 9404 ይደውሉ','ch.title':'የንስር ረዳት','ch.sub':'አማርኛና እንግሊዝኛ፣ 24 ሰዓት','ch.ph':'ስለ ወለድ፣ ብድር፣ ካቻ ይጠይቁ','ch.hi':'ሰላም! ስለ ንስር የቁጠባ ወለድ፣ ብድር፣ ሰነዶች፣ ካቻና ቅርንጫፎች ጥያቄዎችን መመለስ እችላለሁ። ምን ማወቅ ይፈልጋሉ?','ch.fb':'ለዚህ በቂ መልስ የለኝም። ወደ 9404 ይደውሉ ወይም ቅርንጫፍ ይሂዱ፤ የንስር ባለሙያ ይረዳዎታል።','ch.q1':'የቁጠባ ወለድ','ch.q2':'የትኛው ብድር ይስማማኛል?','ch.q3':'የሚያስፈልጉ ሰነዶች','ch.q4':'የካቻ ገደቦች','ch.q5':'ክፍያዎች',
+'toast.err':'እባክዎ ምልክት የተደረገባቸውን መስኮች ያስተካክሉ።'
+}};
+const S={lang:'en',form:{},step:0,tab:'saving',cal:'loan',kPath:'reg',kStep:0,dcType:'vehicle',dcChecked:{},subs:{},cbDay:null,cbTime:null,branchSort:null,user:null};
+const t=k=>(I[S.lang]&&I[S.lang][k])||I.en[k]||k;
+const tt=o=>typeof o==='string'?o:(o[S.lang]||o.en);
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const fmt=n=>new Intl.NumberFormat('en-US',{maximumFractionDigits:0}).format(Math.round(n));
+const fmt2=n=>new Intl.NumberFormat('en-US',{maximumFractionDigits:2}).format(n);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function store(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k));localStorage.setItem(k,JSON.stringify(v))}catch(e){return v===undefined?S.subs[k]:(S.subs[k]=v)}}
+function toast(m){const e=$('#toast');e.textContent=m;e.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('show'),2800)}
+
+/* ============ DATA ============ */
+const SAVING=[
+ {id:'vol',en:'Voluntary Saving',am:'መደበኛ ቁጠባ',rate:10,min:25,n:{en:'From 25 ETB. Free account opening.',am:'ከ25 ብር ጀምሮ። ሂሳብ መክፈት ነፃ።'}},
+ {id:'maleda',en:'Child Saving',am:'ማለዳ',loc:'Maleda',rate:11,min:25,n:{en:'Designed for minors and children.',am:'ለታዳጊዎችና ለልጆች የተዘጋጀ።'}},
+ {id:'alem',en:'Women Saving',am:'ዓለም',loc:'Alem',rate:11,min:25,n:{en:'Tailored for female savers and entrepreneurs.',am:'ለሴት ቆጣቢዎችና ሥራ ፈጣሪዎች የተመቻቸ።'}},
+ {id:'yichalal',en:'Disability Saving',am:'ይቻላል',loc:'Yichalal',rate:11,min:25,n:{en:'Tailored for persons with disabilities.',am:'ለአካል ጉዳተኞች የተመቻቸ።'}},
+ {id:'efoy',en:'Elderly Saving',am:'እፎይ',loc:'Efoy',rate:11,min:25,n:{en:'For senior citizens aged 55 and above.',am:'ዕድሜያቸው 55 እና ከዚያ በላይ ለሆኑ።'}},
+ {id:'td',en:'Time Deposit',am:'የጊዜ ገደብ ቁጠባ',rate:12,rate2:15,min:25000,hl:true,n:{en:'12% to 15%, negotiable. Minimum 25,000 ETB. Comes with a Certificate of Deposit.',am:'ከ12% እስከ 15%፣ ይደራደራል። ዝቅተኛ 25,000 ብር። የተቀማጭ ሰርተፍኬት ይሰጣል።'}}
+];
+const LOANS=[
+ {id:'sme',en:'SME Loan',am:'አነስተኛና መካከለኛ ንግድ ብድር',tag:{en:'Working capital and expansion',am:'የሥራ ማስኬጃና ማስፋፊያ'},d:{en:'Our main business loan, for working capital or growing your business. The loan size follows your business cash flow, and repayment is flexible.',am:'ዋናው የንግድ ብድራችን፣ ለሥራ ማስኬጃ ወይም ንግድዎን ለማስፋት። የብድሩ መጠን በንግድዎ የገንዘብ ፍሰት ይወሰናል፤ አከፋፈሉም ተለዋዋጭ ነው።'},min:10000,max:2000000,tMin:6,tMax:36,tStep:1,per:1},
+ {id:'micro',en:'Business Development Micro Loan',am:'የንግድ ልማት አነስተኛ ብድር',tag:{en:'Up to 50,000 ETB, 18 months',am:'እስከ 50,000 ብር፣ 18 ወር'},d:{en:'For micro-businesses upgrading their operations. Maximum 50,000 ETB, repaid within 18 months (1.5 years).',am:'ሥራቸውን ለሚያሻሽሉ ጥቃቅን ንግዶች። ከፍተኛ 50,000 ብር፣ በ18 ወር (1.5 ዓመት) ውስጥ የሚከፈል።'},min:5000,max:50000,tMin:3,tMax:18,tStep:1,per:1},
+ {id:'specific',en:'Specific Purpose Loan',am:'ልዩ ዓላማ ብድር',tag:{en:'Pay once every 3 months',am:'በየ3 ወሩ አንድ ጊዜ ክፍያ'},d:{en:'A business loan for borrowers who prefer to repay once every three months. The loan size follows your business cash flow.',am:'በየሦስት ወሩ አንድ ጊዜ መክፈል ለሚመርጡ ተበዳሪዎች የንግድ ብድር። የብድሩ መጠን በንግድዎ የገንዘብ ፍሰት ይወሰናል።'},min:10000,max:2000000,tMin:6,tMax:36,tStep:3,per:3},
+ {id:'personal',en:'Personal Consumption Loan',am:'የግል ፍጆታ ብድር',tag:{en:'40,000 to 200,000 ETB for salaried staff',am:'ለደመወዝተኞች ከ40,000 እስከ 200,000 ብር'},d:{en:'For salaried or fixed-income people: assets, school fees and other personal needs. 40,000 to 200,000 ETB depending on your salary tier, for 12 to 18 months.',am:'ደመወዝ ወይም ቋሚ ገቢ ላላቸው፣ ለንብረት ግዢ፣ ለትምህርት ክፍያና ለሌሎች የግል ፍላጎቶች። እንደ ደመወዝ እርከን ከ40,000 እስከ 200,000 ብር፣ ከ12 እስከ 18 ወር።'},min:40000,max:200000,tMin:12,tMax:18,tStep:1,per:1}
+];
+const DIGITAL_TD=[{m:3,lo:11.25,hi:13.25},{m:6,lo:11.75,hi:13.75},{m:12,lo:12.25,hi:14.25}];
+const DOCS=[
+ {id:'id',en:'Renewed resident (Kebele) ID for the borrower and the guarantor. Original and 2 copies.',am:'የታደሰ የነዋሪነት መታወቂያ (የዋስ እና የተበዳሪ ዋና እና 2 ኮፒ)',for:['vehicle','property','construction','salary']},
+ {id:'biz',en:'Renewed trade license, principal registration license and TIN certificate (copies).',am:'የታደሰ የንግድ ፍቃድ፣ የዋና ምዝገባ ፍቃድ፣ የቲን ሰርተፍኬት ኮፒ',for:['vehicle','property','construction']},
+ {id:'veh',en:'Vehicle collateral: original ownership booklet (Libre) and copy, comprehensive insurance in the owner\'s and Nisir\'s names, and a chassis and engine valuation certificate.',am:'ዋስትናው መኪና ከሆነ ኦሪጅናል ሊብሬ እና ኮፒ፣ የኢንሹራንስ ውል (በባለቤቱና በንስር ስም)፣ የሻሲና ሞተር ግምት ሰርተፍኬት',for:['vehicle']},
+ {id:'prop',en:'House collateral: original title deed (Karta) and copy.',am:'ዋስትናው ቤት ከሆነ ኦሪጅናል ካርታ እና ኮፒ',for:['property','construction']},
+ {id:'cons',en:'Construction loan: original title deed, approved plan, insurance contract and building permit.',am:'ለቤት ስራ ብድር ከሆነ ኦርጅናል ካርታ እና ፕላን፣ የኢንሹራንስ ውል እንዲሁም የግንባታ ፍቃድ',for:['construction']},
+ {id:'contr',en:'Contractor work: office lease agreement copy and active work contract copy.',am:'በኮንትራክተር ስራ ላይ ላሉ የቤት ኪራይ ውል ኮፒ እና የስራ ኮንትራት ውል ኮፒ',for:['construction'],cond:true},
+ {id:'bank',en:'Bank statement showing income and expenses.',am:'ገቢና ወጪ የሚያሳይ የባንክ ስቴትመንት',for:['vehicle','property','construction','salary']},
+ {id:'tax',en:'Tax payment receipt and clearance from the Revenue Authority.',am:'ከገቢዎች ግብር የተከፈለበት ደረሰኝና ክሊራንስ',for:['vehicle','property','construction']},
+ {id:'pro',en:'Buying a vehicle with the loan: proforma invoice.',am:'ለመኪና መግዣ ብድር ከሆነ የዋጋ ማቅረቢያ (ፕሮፎርማ)',for:['vehicle'],cond:true},
+ {id:'mar',en:'Proof of marital status (unmarried or marriage certificate) for the borrower and the guarantor, plus TIN certificate.',am:'የጋብቻ ሁኔታ የዋስ እና የተበዳሪ ኮፒ እና የቲን ሰርተፍኬት',for:['vehicle','property','construction','salary']},
+ {id:'ph',en:'6 passport-size photographs.',am:'(6) ፎቶ ግራፍ',for:['vehicle','property','construction','salary']},
+ {id:'sig',en:'The borrower, the guarantor and their spouses (if any) sign the loan contract.',am:'ተበዳሪው እና ዋስ እንዲሁም የሁለቱም የትዳር አጋሮች ካሉ የተቋሙ ውሎች ላይ መፈረም ይኖርባቸዋል',for:['vehicle','property','construction','salary']}
+];
+/* lat/lng are approximate neighborhood centers (not surveyed). Verify before using for turn-by-turn. Directions use the address text. */
+const BR=[
+ {n:'Premium',hq:1,d:'Nisir Bldg., European Union Street (Rwanda)',p:['+251116663492','+251116662369'],sc:'Bole',ll:[8.9940,38.7840]},
+ {n:'Main',d:'Dembel City Center',p:['+251115500700','+251115500701'],sc:'Bole',ll:[8.9950,38.7790]},
+ {n:'Megenagna',d:'Zefmesh Mall, 1st Floor',p:['+251116674666'],sc:'Yeka',ll:[9.0200,38.8030]},
+ {n:'Beklobet',d:'Lancha, Mikwor Plaza Bldg., Ground Floor',p:['+251114705473']},
+ {n:'Piassa',d:'Dejach Wube Sefer, in front of Addis Ababa Restaurant, 1st Flr',p:['+251111265516','+251111265908'],sc:'Arada',ll:[9.0350,38.7520]},
+ {n:'Sengatera',d:'Sengatera 40/60 Condominium Block 1, 2nd Floor',p:['+251112732759','+251112733422']},
+ {n:'Lebu',d:'Lebu Mebrat, in front of Zemen Gas Station, Tigist & Aikel Bldg, 1st Flr',p:['+251114625989','+251114625515'],sc:'Nifas Silk-Lafto',ll:[8.9560,38.7140]},
+ {n:'Girar',d:'Ayer Tena, Deblo Building, 2nd Floor',p:['+251113694173','+251113693615'],ll:[8.9660,38.7030]},
+ {n:'Summit',d:'Around Fiyel Bet, GN Building, 1st Floor',p:['+251116701693','+251116704876'],sc:'Bole',ll:[9.0000,38.8270]},
+ {n:'Ayat',d:'Ayat, in front of All Mart Supermarket',p:['+251116700576','+251116701185'],sc:'Bole',ll:[9.0230,38.8650]},
+ {n:'Paster',d:'Tsehai Bridge, next to Adarge School, Ayelech Bldg, 1st Flr',p:['+251112740298','+251112740694']},
+ {n:'Karl',d:'Sarbet, Bisrat Gabriel Rd, next to Queens Supermarket, Boren Bldg, 2nd Flr',p:['+251113837039','+251113837391'],ll:[8.9890,38.7380]},
+ {n:'Bulbula',d:'Red Soil, before Jamboro Real Estate',p:['+251114432225','+251114423960'],sc:'Bole',ll:[8.9560,38.7850]},
+ {n:'Kality',d:'Next to Kality Total Gas Station, 1st Floor',p:['+251114552490','+251114629066'],sc:'Akaky Kaliti',ll:[8.8890,38.7670]},
+ {n:'Kotebe',d:'Kotebe 02, next to Yerer Building, 1st Floor',p:['+251116734513','+251116734731'],sc:'Yeka',ll:[9.0390,38.8470]},
+ {n:'Gerji',d:'Gerji Roba, in front of Sunshine Building',p:['+251116394694','+251116394682'],sc:'Bole',ll:[9.0000,38.8070]},
+ {n:'Jemo',d:'Jemo 1, 67 Mazoriya, Densher Bldg., 1st Floor',p:['+251114379196'],ll:[8.9500,38.7120]},
+ {n:'Tafo',d:'Next to Ethio Telecom CCD Homes',p:['+251116702240','+251116702355']},
+ {n:'Gofa',d:'In front of Gofa Gebriel Police Station',p:['+251114700150','+251114706961'],sc:'Nifas Silk-Lafto',ll:[8.9700,38.7320]},
+ {n:'Goro',d:'Goro to Industry Mender Road, 1st Floor',p:[]},
+ {n:'Addisu Gebeya',d:'In front of Sheger Park, Rasan Guest House Bldg',p:['+251111250915']},
+ {n:'Saris',d:'Adey Ababa, beside the Bridge',p:['+251114704815','+251114705627'],ll:[8.9340,38.7620]},
+ {n:'Butajira',d:'Butajira, in front of Ethio Telecom, Admas Bogale Bldg',p:[],ll:[8.1170,38.3760],reg:1},
+ {n:'Hosaena',d:'Hosanna Main St, Ambcho Rd, in front of Saleme Café',p:['+251461780717'],ll:[7.5500,37.8500],reg:1}
+];
+const fmtPhone=p=>p.replace(/^\+251(\d{2,3})(\d{3})(\d{3,4})$/,(m,a,b,c)=>`+251 ${a} ${b} ${c}`).replace(/^\+251(11)(\d{3})(\d{4})$/,'+251 $1 $2 $3');
+
+/* ============ i18n apply ============ */
+function applyLang(){
+  document.documentElement.lang=S.lang==='am'?'am':'en';
+  $$('[data-i18n]').forEach(e=>e.textContent=t(e.dataset.i18n));
+  $$('[data-i18n-ph]').forEach(e=>e.placeholder=t(e.dataset.i18nPh));
+  $$('[data-show-lang]').forEach(e=>e.classList.toggle('hide',e.dataset.showLang!==S.lang));
+  $$('.lang button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.lang===S.lang));
+  renderTabs();renderServices();renderCalTabs();renderCalc();renderKacha();renderWizard();renderDocs();renderTrack();renderBranches();renderCallback();renderFaq();renderTariffMini();renderChatUI();
+}
+$$('.lang button').forEach(b=>b.addEventListener('click',()=>{S.lang=b.dataset.lang;try{localStorage.setItem('nisir-lang',S.lang)}catch(e){}applyLang()}));
+
+/* ============ header / nav ============ */
+const hdr=$('#hdr');
+const onScroll=()=>hdr.classList.toggle('solid',scrollY>30);onScroll();addEventListener('scroll',onScroll,{passive:true});
+$('#burger').addEventListener('click',e=>{const o=$('#nav').classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':''});
+document.addEventListener('click',e=>{
+  const a=e.target.closest('a[href^="#"]');if(!a)return;
+  if($('#nav').classList.contains('open')){$('#nav').classList.remove('open');$('#burger').setAttribute('aria-expanded',false);document.body.style.overflow=''}
+  if(a.dataset.tab){S.tab=a.dataset.tab;renderTabs();renderServices()}
+});
+$('#yr').textContent=new Date().getFullYear();
+
+/* ============ counters ============ */
+(function(){
+  const els=$$('[data-count]');
+  const run=e=>{const to=+e.dataset.count;if(RM){e.textContent=fmt(to);return}const t0=performance.now(),d=1400;(function f(n){const p=Math.min(1,(n-t0)/d);e.textContent=fmt(to*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)})(t0)};
+  const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){run(x.target);io.unobserve(x.target)}}),{threshold:.6});
+  els.forEach(e=>io.observe(e));
+})();
+
+/* ============ services ============ */
+const TABS=['saving','credit','digital','tariffs'];
+function tabsHTML(list,sel,idp){return list.map(k=>`<button class="tab" role="tab" id="${idp}-${k}" aria-selected="${sel===k}" data-k="${k}">${t('tab.'+k)||k}</button>`).join('')}
+function renderTabs(){
+  const el=$('#svcTabs');el.innerHTML=tabsHTML(TABS,S.tab,'st');
+  $$('.tab',el).forEach(b=>b.addEventListener('click',()=>{S.tab=b.dataset.k;renderTabs();renderServices()}));
+  el.addEventListener('keydown',e=>{if(!['ArrowRight','ArrowLeft'].includes(e.key))return;const i=TABS.indexOf(S.tab),n=TABS[(i+(e.key==='ArrowRight'?1:TABS.length-1))%TABS.length];S.tab=n;renderTabs();renderServices();$('#st-'+n).focus()},{once:true});
+}
+function tariffTable(){return `<div class="tbl"><table><thead><tr><th>${t('tf.service')}</th><th>${t('tf.fee')}</th></tr></thead><tbody>
+<tr><td>${t('tf.t1')}</td><td><b>${t('tf.t1f')}</b></td></tr>
+<tr><td>${t('tf.t2')}</td><td class="free">${t('tf.free')}</td></tr>
+<tr><td>${t('tf.t3')}</td><td class="free">${t('tf.free')}</td></tr>
+<tr><td>${t('tf.t4')}</td><td class="free">${t('tf.free')}</td></tr>
+<tr><td>${t('tf.t5')}</td><td class="free">${t('tf.free')}</td></tr></tbody></table></div>`}
+function renderTariffMini(){$('#tariffMini').innerHTML=tariffTable()}
+function renderServices(){
+  const p=$('#svcPanel');p.className='panel';p.setAttribute('aria-labelledby','st-'+S.tab);void p.offsetWidth;
+  if(S.tab==='saving'){
+    p.innerHTML=`<div class="rail">${SAVING.map(s=>`<article class="rate ${s.hl?'hl':''}"><div class="local" ${S.lang==='en'?'lang="am"':''}>${esc(S.lang==='am'?s.am:s.am)}</div><div class="nm">${esc(S.lang==='am'?(s.loc||s.en):s.en)}${s.loc&&S.lang==='en'?' ('+esc(s.loc)+')':''}</div><p>${esc(tt(s.n))}</p><div class="pct">${s.rate2?s.rate+'–'+s.rate2:s.rate}%<small> ${t('sv.per')}</small></div></article>`).join('')}</div>
+    <p class="note" style="color:var(--muted)">${S.lang==='am'?'ሁሉም የቁጠባ ዓይነቶች ቢያንስ 10% ወለድ ያስገኛሉ።':'Every savings account earns at least 10% a year.'} <a href="#calculators" data-cal="save">${t('sv.calc')}</a></p>`;
+  }else if(S.tab==='credit'){
+    p.innerHTML=`<div class="loans">${LOANS.map((l,i)=>`<div class="loan"><button type="button" aria-expanded="${i===0}" aria-controls="ln-${l.id}"><b>${esc(tt(l))}</b><em>${esc(tt(l.tag))}</em></button><div class="body" id="ln-${l.id}"><div><p>${esc(tt(l.d))}</p><a class="btn sm" href="#apply" data-loan="${l.id}">${t('sv.apply')}</a> <a class="btn sm ghost" style="color:var(--ink)" href="#calculators" data-cal="${l.id}">${t('sv.calc')}</a></div></div></div>`).join('')}</div>`;
+    $$('.loan button',p).forEach(b=>b.addEventListener('click',()=>b.setAttribute('aria-expanded',b.getAttribute('aria-expanded')!=='true')));
+  }else if(S.tab==='digital'){
+    p.innerHTML=`<div class="split"><div class="box"><h3>${t('ka.reg')}</h3><p>${t('ka.min')}. ${t('ka.tax')}</p><a class="btn sm teal" href="#kacha" data-kp="reg">${t('sv.walk')}</a></div>
+    <div class="box"><h3>${t('ka.td')}</h3><p>${t('ka.minTd')}. ${t('ka.early')}</p><div class="tbl"><table><thead><tr><th>${t('sv.terms')}</th><th>${t('sv.per')}</th></tr></thead><tbody>${DIGITAL_TD.map(d=>`<tr><td>${d.m} ${S.lang==='am'?'ወራት':'months'}</td><td><b>${d.lo}% – ${d.hi}%</b></td></tr>`).join('')}</tbody></table></div><p style="margin-top:14px"><a class="btn sm teal" href="#kacha" data-kp="td">${t('sv.walk')}</a></p></div></div>`;
+  }else p.innerHTML=tariffTable();
+}
+document.addEventListener('click',e=>{
+  const c=e.target.closest('[data-cal]');if(c){S.cal=c.dataset.cal==='save'?'save':'loan';if(S.cal==='loan')S.loanType=c.dataset.cal;renderCalTabs();renderCalc()}
+  const l=e.target.closest('[data-loan]');if(l){S.form.ltype=l.dataset.loan;if(S.step===3)renderWizard()}
+  const k=e.target.closest('[data-kp]');if(k){S.kPath=k.dataset.kp;S.kStep=0;renderKacha()}
+});
+
+/* ============ calculators ============ */
+const CALS=['loan','save'];
+function renderCalTabs(){
+  const el=$('#calTabs');el.innerHTML=CALS.map(k=>`<button class="tab" role="tab" aria-selected="${S.cal===k}" data-k="${k}" style="${S.cal===k?'background:var(--gold);color:var(--ink);border-color:var(--gold)':'background:transparent;color:#fff;border-color:rgba(255,255,255,.25)'}">${t('ca.'+k)}</button>`).join('');
+  $$('.tab',el).forEach(b=>b.addEventListener('click',()=>{S.cal=b.dataset.k;renderCalTabs();renderCalc()}));
+}
+function fill(r){r.style.setProperty('--p',((r.value-r.min)/(r.max-r.min)*100)+'%')}
+function renderCalc(){S.cal==='loan'?renderLoanCalc():renderSaveCalc()}
+function renderLoanCalc(){
+  const id=S.loanType||'sme';const L=LOANS.find(x=>x.id===id);
+  const st=S.lc=S.lc&&S.lc.id===id?S.lc:{id,amt:Math.min(L.max,Math.max(L.min,id==='micro'?30000:id==='personal'?80000:200000)),term:Math.min(L.tMax,Math.max(L.tMin,12)),rate:CONFIG.loanRates[id]};
+  $('#calBody').innerHTML=`<div class="calc"><div class="ctl">
+   <div class="field"><span class="lbl">${t('ca.type')}</span><div class="chips" id="lcT">${LOANS.map(l=>`<button class="chip" type="button" aria-pressed="${l.id===id}" data-id="${l.id}">${esc(tt(l))}</button>`).join('')}</div></div>
+   <div class="field"><label for="lcA">${t('ca.amount')} <output id="lcAo"></output></label><input id="lcA" type="range" min="${L.min}" max="${L.max}" step="${L.max>200000?5000:1000}" value="${st.amt}"></div>
+   <div class="field"><label for="lcT2">${t('ca.term')} <output id="lcTo"></output></label><input id="lcT2" type="range" min="${L.tMin}" max="${L.tMax}" step="${L.tStep}" value="${st.term}"></div>
+   <div class="field"><label for="lcR">${t('ca.rate')} <output id="lcRo"></output></label><input id="lcR" type="range" min="8" max="30" step="0.5" value="${st.rate}"><p class="note" style="color:#B8C0E6">${t('ca.rateNote')}</p></div>
+  </div><div class="out" aria-live="polite">
+   <div><small>${t('ca.pay')} <span id="lcPer"></span></small><div class="big" id="lcPay"></div></div>
+   <div class="bar" aria-hidden="true"><i id="lcB1"></i><i id="lcB2"></i></div>
+   <div class="kv"><span>${t('ca.prin')}</span><b id="lcP"></b></div><div class="kv"><span>${t('ca.int')}</span><b id="lcI"></b></div><div class="kv"><span>${t('ca.total')}</span><b id="lcTot"></b></div>
+   <a class="btn teal" href="#apply" data-loan="${id}" style="margin-top:auto">${t('sv.apply')}</a></div></div>`;
+  $$('#lcT .chip').forEach(c=>c.addEventListener('click',()=>{S.loanType=c.dataset.id;S.lc=null;renderLoanCalc()}));
+  const A=$('#lcA'),T=$('#lcT2'),R=$('#lcR');
+  const upd=()=>{st.amt=+A.value;st.term=+T.value;st.rate=+R.value;[A,T,R].forEach(fill);
+    $('#lcAo').textContent=fmt(st.amt)+' ETB';$('#lcTo').textContent=st.term;$('#lcRo').textContent=st.rate+'%';
+    const n=st.term/L.per,i=st.rate/100/(12/L.per);const pay=i?st.amt*i/(1-Math.pow(1+i,-n)):st.amt/n;const total=pay*n,int=total-st.amt;
+    $('#lcPay').textContent=fmt(pay)+' ETB';$('#lcPer').textContent=L.per===3?t('ca.quarterly'):t('ca.monthly');
+    $('#lcP').textContent=fmt(st.amt)+' ETB';$('#lcI').textContent=fmt(int)+' ETB';$('#lcTot').textContent=fmt(total)+' ETB';
+    $('#lcB1').style.width=(st.amt/total*100)+'%';$('#lcB2').style.width=(int/total*100)+'%'};
+  [A,T,R].forEach(r=>r.addEventListener('input',upd));upd();
+}
+function renderSaveCalc(){
+  const sv=S.sc=S.sc||{id:'vol',amt:5000,mo:12,rate:12,dm:12};
+  const prods=[...SAVING.filter(s=>s.id!=='td').map(s=>({id:s.id,name:S.lang==='am'?(s.loc?s.am:s.am):s.en,rate:s.rate,min:s.min})),{id:'td',name:S.lang==='am'?'የጊዜ ገደብ ቁጠባ':'Time Deposit',min:25000,range:[12,15]},{id:'dreg',name:S.lang==='am'?'ዲጂታል መደበኛ ቁጠባ':'Digital regular saving',rate:null,min:5,max:100000},{id:'dtd',name:S.lang==='am'?'ዲጂታል የጊዜ ገደብ':'Digital time deposit',min:5000,dtd:1}];
+  const P=prods.find(p=>p.id===sv.id)||prods[0];
+  $('#calBody').innerHTML=`<div class="calc"><div class="ctl">
+   <div class="field"><span class="lbl">${t('ca.prod')}</span><div class="chips" id="scP">${prods.map(p=>`<button class="chip" type="button" aria-pressed="${p.id===P.id}" data-id="${p.id}">${esc(p.name)}</button>`).join('')}</div></div>
+   <div class="field"><label for="scA">${t('ca.dep')} <output id="scAo"></output></label><input id="scA" type="range" min="${P.min}" max="${P.max||5000000}" step="${P.min>=1000?1000:P.min<=25?25:5}" value="${Math.max(P.min,Math.min(P.max||5e6,sv.amt))}"></div>
+   ${P.dtd?`<div class="field"><span class="lbl">${t('ca.mo')}</span><div class="chips" id="scD">${DIGITAL_TD.map(d=>`<button class="chip" type="button" aria-pressed="${d.m===sv.dm}" data-m="${d.m}">${d.m}</button>`).join('')}</div></div>`:
+   `<div class="field"><label for="scM">${t('ca.mo')} <output id="scMo"></output></label><input id="scM" type="range" min="1" max="60" step="1" value="${sv.mo}"></div>`}
+   ${P.range?`<div class="field"><label for="scR">${t('ca.rate')} <output id="scRo"></output></label><input id="scR" type="range" min="12" max="15" step="0.25" value="${sv.rate}"></div>`:''}
+   <p class="note" style="color:#B8C0E6">${t('ca.saveNote')}${P.id==='dreg'?' '+t('ka.tax'):''}</p>
+  </div><div class="out" aria-live="polite">
+   <div><small>${t('ca.earn')}</small><div class="big" id="scE"></div></div>
+   <div class="bar" aria-hidden="true"><i id="scB1"></i><i id="scB2" style="background:var(--teal)"></i></div>
+   <div class="kv"><span>${t('ca.end')}</span><b id="scT"></b></div><div class="kv"><span>${t('ca.net')}</span><b id="scN"></b></div><div class="kv"><span>${t('ca.prin')}</span><b id="scP2"></b></div>
+   <p class="note" id="scNote"></p></div></div>`;
+  $$('#scP .chip').forEach(c=>c.addEventListener('click',()=>{sv.id=c.dataset.id;if(sv.id==='td')sv.amt=Math.max(sv.amt,25000);if(sv.id==='dtd')sv.amt=Math.max(sv.amt,5000);renderSaveCalc()}));
+  $$('#scD .chip').forEach(c=>c.addEventListener('click',()=>{sv.dm=+c.dataset.m;renderSaveCalc()}));
+  const A=$('#scA'),M=$('#scM'),R=$('#scR');
+  const upd=()=>{sv.amt=+A.value;fill(A);if(M){sv.mo=+M.value;fill(M);$('#scMo').textContent=sv.mo}if(R){sv.rate=+R.value;fill(R);$('#scRo').textContent=sv.rate+'%'}
+    $('#scAo').textContent=fmt(sv.amt)+' ETB';
+    const months=P.dtd?sv.dm:sv.mo;let lo,hi;
+    if(P.dtd){const d=DIGITAL_TD.find(x=>x.m===sv.dm);lo=d.lo;hi=d.hi}else if(P.id==='td'){lo=hi=sv.rate}else if(P.id==='dreg'){lo=hi=CONFIG.digitalRegRate||10}else lo=hi=P.rate;
+    const e1=sv.amt*lo/100*months/12,e2=sv.amt*hi/100*months/12,rng=lo!==hi;
+    $('#scE').textContent=rng?`${fmt(e1)} – ${fmt(e2)} ETB`:`${fmt(e1)} ETB`;
+    $('#scT').textContent=rng?`${fmt(sv.amt+e1)} – ${fmt(sv.amt+e2)} ETB`:`${fmt(sv.amt+e1)} ETB`;
+    const k=1-CONFIG.withholdingTax/100;$('#scN').textContent=rng?`${fmt(e1*k)} – ${fmt(e2*k)} ETB`:`${fmt(e1*k)} ETB`;
+    $('#scP2').textContent=fmt(sv.amt)+' ETB';
+    const tot=sv.amt+e2;$('#scB1').style.width=(sv.amt/tot*100)+'%';$('#scB2').style.width=(e2/tot*100)+'%';
+    $('#scNote').textContent=(rng?(lo+'% – '+hi+'%'):(lo+'%'))+' '+t('sv.per')+(P.id==='dreg'?'':'');};
+  [A,M,R].filter(Boolean).forEach(r=>r.addEventListener('input',upd));upd();
+}
+
+/* ============ Kacha walkthrough ============ */
+const KP={reg:[
+ {t:{en:'Open your Kacha wallet',am:'የካቻ ዋሌትዎን ይክፈቱ'},s:{en:'Sign in with your phone number.',am:'በስልክ ቁጥርዎ ይግቡ።'}},
+ {t:{en:'Choose Nisir savings',am:'የንስር ቁጠባ ይምረጡ'},s:{en:'Pick regular saving from the savings list.',am:'ከቁጠባ ዝርዝሩ መደበኛ ቁጠባ ይምረጡ።'}},
+ {t:{en:'Deposit from 5 ETB',am:'ከ5 ብር ጀምሮ ያስገቡ'},s:{en:'Any amount up to 100,000 ETB.',am:'እስከ 100,000 ብር ማንኛውም መጠን።'}},
+ {t:{en:'Confirm and start earning',am:'ያረጋግጡና ወለድ ማግኘት ይጀምሩ'},s:{en:'Interest follows your minimum monthly balance.',am:'ወለድ በወሩ ዝቅተኛ ቀሪ ሂሳብ ይሰላል።'}}],
+ td:[
+ {t:{en:'Open your Kacha wallet',am:'የካቻ ዋሌትዎን ይክፈቱ'},s:{en:'Sign in with your phone number.',am:'በስልክ ቁጥርዎ ይግቡ።'}},
+ {t:{en:'Choose time deposit',am:'የጊዜ ገደብ ቁጠባ ይምረጡ'},s:{en:'From 5,000 ETB, no maximum.',am:'ከ5,000 ብር ጀምሮ፣ ከፍተኛ ገደብ የለም።'}},
+ {t:{en:'Pick your lock period',am:'የሚቆልፉበትን ጊዜ ይምረጡ'},s:{en:'3, 6 or 12 months. The rate shows before you confirm.',am:'3፣ 6 ወይም 12 ወር። ምጣኔው ከማረጋገጥዎ በፊት ይታያል።'}},
+ {t:{en:'Lock it in',am:'ያቆልፉት'},s:{en:'Early withdrawal falls back to 10% a year.',am:'ቀድሞ ማውጣት ወደ 10% ዓመታዊ ምጣኔ ይመለሳል።'}}]};
+function renderKacha(){
+  const steps=KP[S.kPath];S.kStep=Math.min(S.kStep,steps.length-1);
+  $('#kPath').innerHTML=['reg','td'].map(k=>`<button class="chip" type="button" aria-pressed="${S.kPath===k}" data-k="${k}">${t('ka.'+k)}</button>`).join('');
+  $$('#kPath .chip').forEach(b=>b.addEventListener('click',()=>{S.kPath=b.dataset.k;S.kStep=0;renderKacha()}));
+  $('#kSteps').innerHTML=steps.map((s,i)=>`<li><button type="button" data-i="${i}" ${i===S.kStep?'aria-current="step"':''}><b>${i+1}</b><span>${esc(tt(s.t))}<br><small style="font-weight:500;color:var(--muted)">${esc(tt(s.s))}</small></span></button></li>`).join('');
+  $$('#kSteps button').forEach(b=>b.addEventListener('click',()=>{S.kStep=+b.dataset.i;renderKacha()}));
+  const sc=$('#screen'),i=S.kStep,last=i===steps.length-1;let h='';
+  if(i===0)h=`<div class="wallet"><small>Kacha</small><b>0.00 ETB</b></div><h4>${S.lang==='am'?'እንኳን ደህና መጡ':'Welcome back'}</h4><p class="s">${esc(tt(steps[0].s))}</p><div class="opt">${S.lang==='am'?'ስልክ ቁጥር':'Phone number'}<small>09•• ••• •••</small></div>`;
+  else if(S.kPath==='reg'&&i===1)h=`<h4>${S.lang==='am'?'ቁጠባ':'Savings'}</h4><button class="opt" aria-pressed="true" type="button">${t('ka.reg')}<small>Nisir MFI</small></button><button class="opt" type="button">${t('ka.td')}<small>Nisir MFI</small></button>`;
+  else if(S.kPath==='reg'&&i===2)h=`<h4>${t('ka.reg')}</h4><div class="opt" aria-pressed="true" style="text-align:center"><b style="font-family:var(--display);font-size:2.2rem">5.00</b><small>ETB</small></div><p class="s">${t('ka.min')}</p>`;
+  else if(S.kPath==='td'&&i===1)h=`<h4>${t('ka.td')}</h4><button class="opt" aria-pressed="true" type="button">5,000 ETB<small>${t('ka.minTd')}</small></button><p class="s">${t('ka.early')}</p>`;
+  else if(S.kPath==='td'&&i===2)h=`<h4>${t('sv.terms')}</h4>${DIGITAL_TD.map(d=>`<button class="opt kt" type="button" aria-pressed="${d.m===S.kTerm||(!S.kTerm&&d.m===3)}" data-m="${d.m}">${d.m} ${S.lang==='am'?'ወራት':'months'}<small>${d.lo}% – ${d.hi}% ${t('sv.per')}</small></button>`).join('')}`;
+  else h=`<div class="done"><svg viewBox="0 0 40 40"><path d="M8 21l8 8 16-17"/></svg></div><h4 style="text-align:center">${S.lang==='am'?'ተጠናቋል':'All set'}</h4><p class="s" style="text-align:center">${S.kPath==='reg'?t('ka.tax'):t('ka.early')}</p>`;
+  sc.innerHTML=h+`<button class="go" type="button" id="kGo">${last?t('ka.restart'):t('ka.next')}</button>`;
+  $('#kGo').addEventListener('click',()=>{S.kStep=last?0:S.kStep+1;renderKacha()});
+  $$('.kt',sc).forEach(b=>b.addEventListener('click',()=>{S.kTerm=+b.dataset.m;$$('.kt',sc).forEach(x=>x.setAttribute('aria-pressed',x===b))}));
+}
+(function(){const st=$('#phoneStage'),ph=$('#phone');if(RM)return;st.addEventListener('pointermove',e=>{const r=st.getBoundingClientRect();ph.style.setProperty('--ry',((e.clientX-r.left)/r.width-.5)*26+'deg');ph.style.setProperty('--rx',-((e.clientY-r.top)/r.height-.5)*14+'deg')});st.addEventListener('pointerleave',()=>{ph.style.setProperty('--ry','-8deg');ph.style.setProperty('--rx','0deg')})})();
+
+/* ============ loan wizard ============ */
+const REGIONS=['Addis Ababa','Afar','Amhara','Benishangul-Gumuz','Central Ethiopia','Dire Dawa','Gambela','Harari','Oromia','Sidama','Somali','South Ethiopia','South West Ethiopia','Tigray'];
+const SUBCITIES=['Addis Ketema','Akaky Kaliti','Arada','Bole','Gullele','Kirkos','Kolfe Keranio','Lideta','Nifas Silk-Lafto','Yeka','Lemi Kura'];
+const O={
+ title:[{v:'Mr',en:'Mr',am:'አቶ'},{v:'Mrs',en:'Mrs',am:'ወይዘሮ'},{v:'Miss',en:'Miss',am:'ወይዘሪት'},{v:'Dr',en:'Dr',am:'ዶ/ር'},{v:'Prof',en:'Prof',am:'ፕሮፌሰር'}],
+ gender:[{v:'M',en:'Male',am:'ወንድ'},{v:'F',en:'Female',am:'ሴት'}],
+ marital:[{v:'single',en:'Single',am:'ያላገባ/ች'},{v:'married',en:'Married',am:'ያገባ/ች'},{v:'divorced',en:'Divorced',am:'የተፋታ/ች'},{v:'widowed',en:'Widowed',am:'ባል/ሚስት የሞተበት/ባት'}],
+ legal:[{v:'sole',en:'Sole proprietorship',am:'የግል ንግድ'},{v:'plc',en:'Private limited company (PLC)',am:'የግል ኃላፊነቱ የተወሰነ የንግድ ማኅበር'},{v:'share',en:'Group or share company',am:'የቡድን ወይም የአክሲዮን ማኅበር'}],
+ sector:[{v:'consumption',en:'Consumption',am:'ፍጆታ'},{v:'manufacturing',en:'Manufacturing',am:'ማምረቻ'},{v:'service',en:'Service',am:'አገልግሎት'},{v:'agriculture',en:'Agriculture',am:'ግብርና'},{v:'construction',en:'Construction',am:'ግንባታ'},{v:'trade',en:'Trade',am:'ንግድ'},{v:'other',en:'Other',am:'ሌላ'}],
+ ltype:LOANS.map(l=>({v:l.id,en:l.en,am:l.am})),
+ woreda:Array.from({length:13},(_,i)=>({v:String(i+1),en:'Woreda '+(i+1),am:'ወረዳ '+(i+1)})),
+ region:REGIONS.map(r=>({v:r,en:r,am:r==='Addis Ababa'?'አዲስ አበባ':r})),
+ subcity:SUBCITIES.map(r=>({v:r,en:r,am:r})),
+ branch:()=>BR.map(b=>({v:b.n,en:b.n,am:b.n}))
+};
+const WSTEPS=[
+ [{id:'title',k:'f.title',t:'select',o:'title',r:1},{id:'first',k:'f.first',t:'text',r:1,ac:'given-name'},{id:'father',k:'f.father',t:'text',r:1},{id:'grand',k:'f.grand',t:'text',r:1},{id:'dob',k:'f.dob',t:'date',r:1,v:'dob'},{id:'gender',k:'f.gender',t:'select',o:'gender',r:1},{id:'marital',k:'f.marital',t:'select',o:'marital',r:1},{id:'m1',k:'f.m1',t:'tel',r:1,v:'phone',ac:'tel',ph:'09XXXXXXXX'},{id:'m2',k:'f.m2',t:'tel',v:'phone'},{id:'kebele',k:'f.kebele',t:'text',r:1},{id:'email',k:'f.email',t:'email',v:'email',ac:'email',full:1}],
+ [{id:'region',k:'f.region',t:'select',o:'region',r:1},{id:'subcity',k:'f.subcity',t:'select',o:'subcity',r:1,show:f=>f.region==='Addis Ababa'},{id:'zone',k:'f.zone',t:'text',r:1,show:f=>f.region&&f.region!=='Addis Ababa'},{id:'woreda',k:'f.woreda',t:'select',o:'woreda',r:1},{id:'place',k:'f.place',t:'text',r:1,full:1},{id:'branch',k:'f.branch',t:'select',o:'branch',r:1,full:1}],
+ [{id:'legal',k:'f.legal',t:'select',o:'legal',r:1},{id:'sector',k:'f.sector',t:'select',o:'sector',r:1},{id:'detail',k:'f.detail',t:'textarea',r:1,full:1},{id:'licdate',k:'f.licdate',t:'date',r:1,max:'today'}],
+ [{id:'ltype',k:'f.ltype',t:'select',o:'ltype',r:1,full:1},{id:'lamt',k:'f.lamt',t:'number',r:1,v:'amt',ac:'off'},{id:'purpose',k:'f.purpose',t:'textarea',r:1,full:1}]
+];
+function opts(f){const o=typeof O[f.o]==='function'?O[f.o]():O[f.o];return `<option value="">${t('f.select')}</option>`+o.map(x=>`<option value="${esc(x.v)}" ${S.form[f.id]===x.v?'selected':''}>${esc(tt(x))}</option>`).join('')}
+function fieldHTML(f){
+  const v=S.form[f.id]||'',id='w_'+f.id,lab=t(f.k)+(f.r?'':'');let c;
+  if(f.t==='select')c=`<select class="fi" id="${id}" data-f="${f.id}" ${f.r?'required':''}>${opts(f)}</select>`;
+  else if(f.t==='textarea')c=`<textarea class="fi" id="${id}" data-f="${f.id}">${esc(v)}</textarea>`;
+  else c=`<input class="fi" id="${id}" data-f="${f.id}" type="${f.t}" value="${esc(v)}" ${f.ph?`placeholder="${f.ph}"`:''} ${f.ac?`autocomplete="${f.ac}"`:''} ${f.t==='tel'?'inputmode="tel"':''} ${f.t==='number'?'inputmode="numeric" min="1"':''} ${f.max==='today'?`max="${new Date().toISOString().slice(0,10)}"`:''}>`;
+  return `<div class="fg ${f.full||f.t==='textarea'?'full':''}"><label for="${id}">${lab}</label>${c}<div class="err" id="e_${f.id}" role="alert"></div></div>`;
+}
+function renderWizard(){
+  const w=$('#wizard');
+  if(S.done){w.innerHTML=`<div class="success"><svg viewBox="0 0 40 40" width="64" height="64" style="margin:0 auto" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#16764F"/><path d="M11 21l6 6 12-13" fill="none" stroke="#fff" stroke-width="3.2" stroke-dasharray="40" stroke-dashoffset="40"><animate attributeName="stroke-dashoffset" to="0" dur=".6s" fill="freeze"/></path></svg><h3 style="margin-top:12px">${t('wz.okh')}</h3><div class="ref">${esc(S.done)}</div><p>${t('wz.okp')}</p><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><a class="btn teal" href="#track" id="goTrack">${t('wz.track')}</a><button class="btn ghost" style="color:var(--ink)" type="button" id="wzNew">${t('wz.new')}</button></div></div>`;
+    $('#wzNew').onclick=()=>{S.done=null;S.form={};S.step=0;renderWizard()};
+    $('#goTrack').onclick=()=>{$('#tkRef').value=S.done;$('#tkPhone').value=S.form.m1||S.lastPhone||''};return}
+  const names=['wz.s1','wz.s2','wz.s3','wz.s4'];
+  const fields=WSTEPS[S.step].filter(f=>!f.show||f.show(S.form));
+  let extra='';
+  if(S.step===3){const f=S.form;extra=`<div class="fg full" style="margin-top:16px"><div class="review"><b style="text-align:left">${t('wz.review')}</b><div><span>${esc([tt(O.title.find(x=>x.v===f.title)||{en:''}),f.first,f.father].filter(Boolean).join(' '))}</span><b>${esc(f.m1||'')}</b></div><div><span>${esc(f.branch||'')}</span><b>${esc((f.region||'')+(f.subcity?', '+f.subcity:''))}</b></div></div></div><div class="fg full" style="margin-top:12px"><label class="chk"><input type="checkbox" id="w_terms" data-f="terms" ${f.terms?'checked':''}><span>${t('f.terms')}</span></label><div class="err" id="e_terms" role="alert"></div></div>`}
+  w.innerHTML=`<div class="prog" role="progressbar" aria-valuemin="1" aria-valuemax="4" aria-valuenow="${S.step+1}"><i style="width:${(S.step+1)*25}%"></i></div>
+   <div class="dots">${names.map((n,i)=>`<span class="${i===S.step?'on':i<S.step?'done':''}">${i<S.step?'✓ ':''}${t(n)}</span>`).join('')}</div>
+   <form id="wzForm" novalidate><div class="grid2">${fields.map(fieldHTML).join('')}${extra}</div>
+   <div class="wiz-nav"><button class="btn ghost" type="button" id="wzBack" style="color:var(--ink)" ${S.step===0?'disabled':''}>${t('wz.back')}</button><button class="btn teal" type="submit" id="wzNext">${S.step===3?t('wz.submit'):t('wz.next')}</button></div></form>`;
+  const form=$('#wzForm');
+  $('#wzBack').onclick=()=>{S.step--;renderWizard();focusWiz()};
+  $$('[data-f]',form).forEach(el=>{
+    const ev=el.tagName==='SELECT'||el.type==='checkbox'?'change':'input';
+    el.addEventListener(ev,()=>{S.form[el.dataset.f]=el.type==='checkbox'?el.checked:el.value;if(el.dataset.f==='region'||el.dataset.f==='ltype'&&false){renderWizard()}});
+    el.addEventListener('blur',()=>{if(el.type!=='checkbox')validateField(el.dataset.f,true)});
+  });
+  form.addEventListener('submit',e=>{e.preventDefault();nextStep(fields)});
+}
+function focusWiz(){const f=$('#wzForm .fi');if(f&&!RM)f.focus({preventScroll:true});$('#wizard').scrollIntoView({block:'nearest',behavior:RM?'auto':'smooth'})}
+function fieldDef(id){for(const s of WSTEPS)for(const f of s)if(f.id===id)return f}
+function validateField(id,soft){
+  const f=fieldDef(id),el=$('#w_'+id),er=$('#e_'+id);if(!f||!el)return true;const v=(S.form[id]||'').toString().trim();let m='';
+  if(f.r&&!v)m=t('e.req');
+  else if(v){
+    if(f.v==='phone'&&!/^(\+?251|0)?[79]\d{8}$/.test(v.replace(/[\s-]/g,'')))m=t('e.phone');
+    else if(f.v==='email'&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v))m=t('e.email');
+    else if(f.v==='dob'){const d=new Date(v),n=new Date();let a=n.getFullYear()-d.getFullYear();if(n<new Date(n.getFullYear(),d.getMonth(),d.getDate()))a--;if(isNaN(a)||a<18)m=t('e.age')}
+    else if(f.v==='amt'){const a=+v.replace(/,/g,'');const lt=S.form.ltype;if(!(a>0))m=t('e.amt');else if(lt==='micro'&&a>50000)m=t('e.micro');else if(lt==='personal'&&(a<40000||a>200000))m=t('e.pers')}
+  }
+  el.setAttribute('aria-invalid',m?'true':'false');el.classList.toggle('ok',!m&&!!v);er.textContent=m;return !m;
+}
+function nextStep(fields){
+  let ok=true,first=null;fields.forEach(f=>{if(!validateField(f.id)){ok=false;first=first||f.id}});
+  if(S.step===3){if(!S.form.terms){ok=false;$('#e_terms').textContent=t('e.terms');first=first||'terms'}else $('#e_terms').textContent=''}
+  if(!ok){toast(t('toast.err'));const el=$('#w_'+first);el&&el.focus();return}
+  if(S.step<3){S.step++;renderWizard();focusWiz();return}
+  submitApplication();
+}
+async function submitApplication(){
+  const btn=$('#wzNext');btn.disabled=true;btn.textContent=t('wz.sending');
+  const ref='NSR-'+Date.now().toString(36).toUpperCase().slice(-6);
+  const payload={ref,...S.form,lang:S.lang,submittedAt:new Date().toISOString()};delete payload.terms;
+  try{
+    if(CONFIG.apiBase){const r=await fetch(CONFIG.apiBase+'/applications',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});if(!r.ok)throw 0}
+    const all=store('nisir-apps')||[];all.push({ref,phone:normPhone(S.form.m1),at:Date.now()});store('nisir-apps',all);
+    S.lastPhone=S.form.m1;S.done=ref;renderWizard();$('#wizard').scrollIntoView({block:'center'});
+  }catch(e){btn.disabled=false;btn.textContent=t('wz.submit');toast(t('wz.fail'))}
+}
+const normPhone=p=>(p||'').replace(/[\s-]/g,'').replace(/^\+?251/,'0').replace(/^([79])/,'0$1');
+
+/* ============ document filter ============ */
+const DTYPES=['vehicle','property','construction','salary'];
+function renderDocs(){
+  $('#dcType').innerHTML=DTYPES.map(k=>`<button class="chip" type="button" aria-pressed="${S.dcType===k}" data-k="${k}">${t('dc.'+k)}</button>`).join('');
+  $$('#dcType .chip').forEach(b=>b.addEventListener('click',()=>{S.dcType=b.dataset.k;renderDocs()}));
+  const list=DOCS.filter(d=>d.for.includes(S.dcType));const chk=S.dcChecked[S.dcType]=S.dcChecked[S.dcType]||{};
+  $('#dcList').innerHTML=list.map(d=>`<li><label><input type="checkbox" data-id="${d.id}" ${chk[d.id]?'checked':''}><span>${esc(S.lang==='am'?d.am:d.en)}<span class="am" ${S.lang==='en'?'lang="am"':''}>${esc(S.lang==='am'?d.en:d.am)}</span>${d.cond?`<span class="cond">${t('dc.cond')}</span>`:''}</span></label></li>`).join('');
+  const meter=()=>{const n=list.filter(d=>chk[d.id]).length;$('#dcMeter').style.width=(n/list.length*100)+'%';$('#dcMeterTxt').textContent=`${n}/${list.length} ${t('dc.ready')}`};
+  $$('#dcList input').forEach(i=>i.addEventListener('change',()=>{chk[i.dataset.id]=i.checked;meter()}));meter();
+}
+$('#dcCopy').addEventListener('click',async()=>{
+  const txt=DOCS.filter(d=>d.for.includes(S.dcType)).map((d,i)=>`${i+1}. ${d.en}\n   ${d.am}`).join('\n');
+  try{await navigator.clipboard.writeText(`Nisir Microfinance: ${t('dc.'+S.dcType)}\n\n${txt}`);toast(t('dc.copied'))}catch(e){toast(txt.slice(0,0)||'Copy not available')}
+});
+$('#dcPrint').addEventListener('click',()=>print());
+
+/* ============ tracker ============ */
+function renderTrack(){
+  const o=$('#tkOut');if(S.tk===undefined)S.tk=null;
+  if(!S.tk){o.innerHTML=`<p style="color:var(--muted);margin:0">${t('tk.empty')}</p>`;return}
+  if(S.tk.none){o.innerHTML=`<p style="color:var(--clay);font-weight:600;margin:0">${t('tk.none')}</p>`;return}
+  const st=S.tk.stage;
+  o.innerHTML=`<p style="margin:0 0 18px"><small style="color:var(--muted)">${t('tk.ref2')}</small><br><b style="font-family:var(--display);font-size:1.4rem">${esc(S.tk.ref)}</b></p><ol class="stages">${[1,2,3,4,5].map(i=>`<li class="${i<st?'done':i===st?'now':''}"><i>${i<st?'✓':i}</i><div><b>${t('tk.s'+i)}</b><span>${t('tk.s'+i+'d')}</span></div></li>`).join('')}</ol>${S.tk.demo?`<p class="kacha-note">${t('tk.demo')}</p>`:''}`;
+}
+$('#tkForm').addEventListener('submit',async e=>{
+  e.preventDefault();const ph=$('#tkPhone').value,ref=$('#tkRef').value.trim().toUpperCase();let bad=false;
+  const pe=!/^(\+?251|0)?[79]\d{8}$/.test(ph.replace(/[\s-]/g,''));$('#tkPhoneE').textContent=pe?t('e.phone'):'';$('#tkPhone').setAttribute('aria-invalid',pe);
+  const re=!/^NSR-[A-Z0-9-]{3,}$/.test(ref);$('#tkRefE').textContent=re?t('e.ref'):'';$('#tkRef').setAttribute('aria-invalid',re);
+  if(pe||re)return;
+  if(CONFIG.apiBase){try{const r=await fetch(`${CONFIG.apiBase}/applications/status?ref=${encodeURIComponent(ref)}&phone=${encodeURIComponent(normPhone(ph))}`);if(!r.ok)throw 0;const j=await r.json();S.tk={ref,stage:j.stage};renderTrack();return}catch(x){S.tk={none:1};renderTrack();return}}
+  const m=ref.match(/^NSR-DEMO-([1-5])$/);if(m){S.tk={ref,stage:+m[1],demo:1};renderTrack();return}
+  const a=(store('nisir-apps')||[]).find(x=>x.ref===ref&&x.phone===normPhone(ph));
+  S.tk=a?{ref,stage:1}:{none:1};renderTrack();
+});
+
+/* ============ branches ============ */
+function renderBranches(){
+  const sc=$('#brSC'),cur=sc.value;sc.innerHTML=`<option value="">${t('br.all')}</option>`+[...new Set(BR.map(b=>b.sc).filter(Boolean))].sort().map(s=>`<option ${s===cur?'selected':''}>${s}</option>`).join('');
+  const q=$('#brQ').value.trim().toLowerCase(),scv=sc.value;
+  let list=BR.filter(b=>(!scv||b.sc===scv)&&(!q||(b.n+' '+b.d+' '+(b.sc||'')).toLowerCase().includes(q)));
+  if(S.user)list=list.map(b=>({...b,km:b.ll?hav(S.user,b.ll):null})).sort((a,b)=>(a.km??1e9)-(b.km??1e9));
+  $('#brCount').textContent=list.length+' '+t('br.count')+(S.user?' · '+t('br.sorted'):'');
+  $('#brList').innerHTML=list.length?list.map(b=>{const ph=b.p[0];const dir='https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(`Nisir Microfinance ${b.n} Branch, ${b.d}, ${b.reg?'Ethiopia':'Addis Ababa, Ethiopia'}`);
+   return `<article class="br"><h3>${esc(b.n)}${b.hq?`<em>${t('br.hq')}</em>`:''}</h3><p>${esc(b.d)}</p>${b.sc?`<p>${esc(b.sc)}</p>`:''}${b.km!=null?`<p class="dist">${b.km.toFixed(1)} ${t('br.away')}</p>`:''}
+   <p>${b.p.length?b.p.map(p=>`<a class="ph" href="tel:${p}">${fmtPhone(p)}</a>`).join('<br>'):`<a class="ph" href="tel:9404">${t('br.nophone')}</a>`}</p>
+   <div class="acts"><a class="btn sm teal" href="${dir}" target="_blank" rel="noopener">${t('br.dir')}</a><button class="btn sm ghost" style="color:var(--ink)" type="button" data-book="${esc(b.n)}">${t('br.book')}</button></div></article>`}).join(''):`<div class="empty">${t('br.none')}</div>`;
+  $$('[data-book]').forEach(b=>b.addEventListener('click',()=>{$('#cbBranch').value=b.dataset.book;$('#callback').scrollIntoView({behavior:RM?'auto':'smooth',block:'center'})}));
+}
+const hav=(a,b)=>{const R=6371,r=x=>x*Math.PI/180,dl=r(b[0]-a[0]),dn=r(b[1]-a[1]);const h=Math.sin(dl/2)**2+Math.cos(r(a[0]))*Math.cos(r(b[0]))*Math.sin(dn/2)**2;return 2*R*Math.asin(Math.sqrt(h))};
+$('#brQ').addEventListener('input',renderBranches);$('#brSC').addEventListener('change',renderBranches);
+$('#brNear').addEventListener('click',()=>{
+  if(!navigator.geolocation){toast(t('br.geo'));return}
+  navigator.geolocation.getCurrentPosition(p=>{S.user=[p.coords.latitude,p.coords.longitude];renderBranches()},()=>toast(t('br.geo')),{enableHighAccuracy:false,timeout:8000});
+});
+
+/* ============ callback booking ============ */
+const SLOTS=['09:00','10:00','11:00','14:00','15:00','16:00'];
+function nextDays(){const d=[],n=new Date();n.setHours(0,0,0,0);let i=1;while(d.length<6){const x=new Date(n);x.setDate(n.getDate()+i++);if(x.getDay()!==0&&x.getDay()!==6)d.push(x)}return d}
+function dayLabel(d){try{return d.toLocaleDateString(S.lang==='am'?'am-ET':'en-GB',{weekday:'short',day:'numeric',month:'short'})}catch(e){return d.toDateString().slice(0,10)}}
+function renderCallback(){
+  const b=$('#cbBranch'),cb=b.value;b.innerHTML=BR.map(x=>`<option value="${esc(x.n)}" ${x.n===cb?'selected':''}>${esc(x.n)}</option>`).join('');
+  const tp=$('#cbTopic'),ct=tp.value||'1';tp.innerHTML=[1,2,3,4,5].map(i=>`<option value="${i}" ${String(i)===ct?'selected':''}>${t('cb.t'+i)}</option>`).join('');
+  const days=nextDays();
+  $('#cbDays').innerHTML=days.map((d,i)=>`<button class="chip" type="button" aria-pressed="${S.cbDay===i}" data-i="${i}">${dayLabel(d)}</button>`).join('');
+  $('#cbTimes').innerHTML=SLOTS.map(s=>`<button class="chip" type="button" aria-pressed="${S.cbTime===s}" data-s="${s}">${s}</button>`).join('');
+  $$('#cbDays .chip').forEach(c=>c.addEventListener('click',()=>{S.cbDay=+c.dataset.i;$$('#cbDays .chip').forEach(x=>x.setAttribute('aria-pressed',x===c))}));
+  $$('#cbTimes .chip').forEach(c=>c.addEventListener('click',()=>{S.cbTime=c.dataset.s;$$('#cbTimes .chip').forEach(x=>x.setAttribute('aria-pressed',x===c))}));
+}
+$('#cbForm').addEventListener('submit',async e=>{
+  e.preventDefault();let ok=true;const nm=$('#cbName').value.trim(),ph=$('#cbPhone').value;
+  $('#cbNameE').textContent=nm?'':t('e.req');if(!nm)ok=false;
+  const pe=!/^(\+?251|0)?[79]\d{8}$/.test(ph.replace(/[\s-]/g,''));$('#cbPhoneE').textContent=pe?t('e.phone'):'';if(pe)ok=false;
+  $('#cbSlotE').textContent=(S.cbDay==null||!S.cbTime)?t('cb.slot'):'';if(S.cbDay==null||!S.cbTime)ok=false;
+  if(!ok)return;
+  const day=nextDays()[S.cbDay],[h,m]=S.cbTime.split(':'),br=$('#cbBranch').value,topic=t('cb.t'+$('#cbTopic').value);
+  const ref='CB-'+Date.now().toString(36).toUpperCase().slice(-5);
+  try{if(CONFIG.apiBase){const r=await fetch(CONFIG.apiBase+'/callbacks',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({ref,branch:br,name:nm,phone:normPhone(ph),date:day.toISOString().slice(0,10),time:S.cbTime,topic:$('#cbTopic').value})});if(!r.ok)throw 0}}catch(x){toast(t('wz.fail'));return}
+  const p2=n=>String(n).padStart(2,'0'),ds=`${day.getFullYear()}${p2(day.getMonth()+1)}${p2(day.getDate())}T${h}${m}00`,de=`${day.getFullYear()}${p2(day.getMonth()+1)}${p2(day.getDate())}T${p2(+h)}3000`;
+  const ics=`BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Nisir MFI//EN\r\nBEGIN:VEVENT\r\nUID:${ref}@nisirmfi.com\r\nDTSTAMP:${new Date().toISOString().replace(/[-:]/g,'').slice(0,15)}Z\r\nDTSTART;TZID=Africa/Addis_Ababa:${ds}\r\nDTEND;TZID=Africa/Addis_Ababa:${de}\r\nSUMMARY:Nisir loan officer call (${br})\r\nDESCRIPTION:${topic}\r\nEND:VEVENT\r\nEND:VCALENDAR`;
+  const url=URL.createObjectURL(new Blob([ics],{type:'text/calendar'}));
+  $('#cbForm').classList.add('hide');const d=$('#cbDone');d.classList.remove('hide');
+  d.innerHTML=`<h3>${t('cb.okh')}</h3><p><b>${esc(br)}</b><br>${dayLabel(day)}, ${S.cbTime}<br>${esc(topic)}</p><div class="ref">${ref}</div><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><a class="btn teal sm" download="nisir-call.ics" href="${url}">${t('cb.ics')}</a><button class="btn ghost sm" style="color:var(--ink)" type="button" id="cbAgain">${t('cb.again')}</button></div>`;
+  $('#cbAgain').onclick=()=>{d.classList.add('hide');$('#cbForm').classList.remove('hide');S.cbDay=null;S.cbTime=null;renderCallback()};
+});
+
+/* ============ FAQ ============ */
+const FAQ=[
+ {q:{en:'What is the minimum to open a savings account?',am:'ቁጠባ ሂሳብ ለመክፈት ዝቅተኛው ስንት ነው?'},a:{en:'25 ETB for Voluntary Saving, and opening the account is free. Digital regular saving through Kacha starts at 5 ETB.',am:'ለመደበኛ ቁጠባ 25 ብር ሲሆን ሂሳብ መክፈት ነፃ ነው። በካቻ የዲጂታል መደበኛ ቁጠባ ከ5 ብር ይጀምራል።'}},
+ {q:{en:'How much interest will I earn?',am:'ምን ያህል ወለድ አገኛለሁ?'},a:{en:'Voluntary Saving earns 10%. Maleda, Alem, Yichalal and Efoy earn 11%. Time deposits earn 12% to 15%, negotiable, from 25,000 ETB.',am:'መደበኛ ቁጠባ 10%፣ ማለዳ፣ ዓለም፣ ይቻላልና እፎይ 11%፣ የጊዜ ገደብ ቁጠባ ከ25,000 ብር ጀምሮ ከ12% እስከ 15% (ይደራደራል)።'}},
+ {q:{en:'Which loan fits my business?',am:'የትኛው ብድር ለንግዴ ይስማማል?'},a:{en:'The SME Loan suits most businesses. Choose the Micro Loan for up to 50,000 ETB over 18 months, or the Specific Purpose Loan if you prefer paying every 3 months. Salaried staff can take the Personal Consumption Loan.',am:'አነስተኛና መካከለኛ ንግድ ብድር ለአብዛኛዎቹ ይስማማል። እስከ 50,000 ብር በ18 ወር ለሚፈልጉ አነስተኛ ብድር፣ በየ3 ወሩ መክፈል ለሚመርጡ ልዩ ዓላማ ብድር። ደመወዝተኞች የግል ፍጆታ ብድር መውሰድ ይችላሉ።'}},
+ {q:{en:'Who can be my guarantor?',am:'ዋስ ማን ሊሆን ይችላል?'},a:{en:'Your guarantor needs a renewed resident ID, proof of marital status, and must sign the loan contract together with their spouse, if any.',am:'ዋስዎ የታደሰ የነዋሪነት መታወቂያና የጋብቻ ሁኔታ ማስረጃ ማቅረብ አለበት፤ የትዳር አጋር ካለም ከእሱ/ሷ ጋር ውሉን መፈረም አለበት።'}},
+ {q:{en:'Does Nisir charge to withdraw cash or repay a loan?',am:'ገንዘብ ለማውጣት ወይም ብድር ለመክፈል ክፍያ አለ?'},a:{en:'No. Loan repayment transfers and cash withdrawals within NBE limits are free, and so are transfers between Nisir accounts.',am:'የለም። የብድር ክፍያ ዝውውርና በብሔራዊ ባንክ ገደብ ውስጥ ገንዘብ ማውጣት እንዲሁም በንስር ሂሳቦች መካከል ዝውውር ነፃ ነው።'}}
+];
+function renderFaq(){
+  $('#faqList').innerHTML=FAQ.map((f,i)=>`<div class="loan"><button type="button" aria-expanded="false" aria-controls="fq${i}"><b style="font-size:1.05rem">${esc(tt(f.q))}</b></button><div class="body" id="fq${i}"><div><p>${esc(tt(f.a))}</p></div></div></div>`).join('');
+  $$('#faqList .loan button').forEach(b=>b.addEventListener('click',()=>b.setAttribute('aria-expanded',b.getAttribute('aria-expanded')!=='true')));
+}
+
+/* ============ support dock ============ */
+const dock=$('#dock');
+$('#dockBtn').addEventListener('click',e=>{const o=dock.classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',o)});
+$('#dkTg').href=CONFIG.telegram;$('#dkWa').href='https://wa.me/'+CONFIG.whatsapp;
+$('#dkChat').addEventListener('click',()=>{openChat(true);dock.classList.remove('open');$('#dockBtn').setAttribute('aria-expanded',false)});
+
+/* ============ assistant (built-in knowledge base; swap CONFIG.aiEndpoint for a live LLM) ============ */
+const KB=[
+ {k:['hello','hi ','hey','selam','ሰላም','ጤና'],a:{en:'Hello! Ask me about savings rates, loans, documents, Kacha, fees or branches.',am:'ሰላም! ስለ ቁጠባ ወለድ፣ ብድር፣ ሰነዶች፣ ካቻ፣ ክፍያዎች ወይም ቅርንጫፎች ይጠይቁ።'}},
+ {k:['saving rate','interest','rate','ወለድ','ቁጠባ','savings','ምጣኔ'],a:{en:'Savings rates per year:\nVoluntary Saving 10%\nMaleda (children), Alem (women), Yichalal (disability), Efoy (55+) 11%\nTime Deposit 12% to 15%, negotiable, from 25,000 ETB.\nOpen from 25 ETB, free.',am:'ዓመታዊ የቁጠባ ወለድ:\nመደበኛ ቁጠባ 10%\nማለዳ (ልጆች)፣ ዓለም (ሴቶች)፣ ይቻላል (አካል ጉዳተኞች)፣ እፎይ (55+) 11%\nየጊዜ ገደብ ቁጠባ ከ25,000 ብር ጀምሮ 12% እስከ 15% (ይደራደራል)።\nሂሳብ ከ25 ብር መክፈት ነፃ ነው።'}},
+ {k:['maleda','child','kid','ማለዳ','ልጅ','ልጆች'],a:{en:'Maleda is the child savings account. It earns 11% a year and is designed for minors.',am:'ማለዳ የልጆች ቁጠባ ነው። በዓመት 11% ወለድ ያስገኛል።'}},
+ {k:['alem','women','woman','ዓለም','ሴት','ሴቶች'],a:{en:'Alem is the women\'s savings account, 11% a year, for female savers and entrepreneurs.',am:'ዓለም የሴቶች ቁጠባ ነው፣ በዓመት 11%፣ ለሴት ቆጣቢዎችና ሥራ ፈጣሪዎች።'}},
+ {k:['yichalal','disab','ይቻላል','አካል ጉዳተኛ'],a:{en:'Yichalal is the savings account for persons with disabilities, 11% a year.',am:'ይቻላል ለአካል ጉዳተኞች የተመቻቸ ቁጠባ ነው፣ በዓመት 11%።'}},
+ {k:['efoy','elder','senior','55','እፎይ','አረጋዊ','አረጋውያን'],a:{en:'Efoy is the savings account for people aged 55 and above, 11% a year.',am:'እፎይ ዕድሜያቸው 55 እና ከዚያ በላይ ለሆኑ የቁጠባ ሂሳብ ነው፣ በዓመት 11%።'}},
+ {k:['time deposit','fixed','certificate','የጊዜ ገደብ'],a:{en:'Time Deposit: 12% to 15% a year, negotiable. Minimum 25,000 ETB, and you receive a Certificate of Deposit.',am:'የጊዜ ገደብ ቁጠባ: ከ12% እስከ 15% በዓመት (ይደራደራል)። ዝቅተኛ 25,000 ብር፣ የተቀማጭ ሰርተፍኬት ይሰጥዎታል።'}},
+ {k:['kacha','wallet','digital','ካቻ','ዲጂታል','mobile','limit','ገደብ'],a:{en:'Kacha digital savings:\nRegular saving: from 5 ETB, up to 100,000 ETB. Interest is on the minimum monthly balance, after 5% withholding tax.\nTime deposit: from 5,000 ETB, no maximum.\n3 months 11.25% to 13.25%\n6 months 11.75% to 13.75%\n12 months 12.25% to 14.25%\nEarly withdrawal pays 10% a year.',am:'የካቻ ዲጂታል ቁጠባ:\nመደበኛ ቁጠባ ከ5 ብር እስከ 100,000 ብር። ወለድ በወሩ ዝቅተኛ ቀሪ ሂሳብ ላይ፣ ከ5% ግብር በኋላ።\nየጊዜ ገደብ ከ5,000 ብር፣ ከፍተኛ ገደብ የለም።\n3 ወር 11.25% - 13.25%\n6 ወር 11.75% - 13.75%\n12 ወር 12.25% - 14.25%\nቀድሞ ማውጣት በዓመት 10% ያስገኛል።'}},
+ {k:['loan','borrow','credit','ብድር','which loan','fit'],a:{en:'Nisir loans:\nSME Loan: working capital or expansion, sized by cash flow.\nBusiness Development Micro Loan: up to 50,000 ETB, up to 18 months.\nSpecific Purpose Loan: repay every 3 months.\nPersonal Consumption Loan: 40,000 to 200,000 ETB for salaried staff, 12 to 18 months.\nTell me your situation and I will point you to one.',am:'የንስር ብድሮች:\nአነስተኛና መካከለኛ ንግድ ብድር: ለሥራ ማስኬጃና ማስፋፊያ፣ በገንዘብ ፍሰት የሚወሰን።\nየንግድ ልማት አነስተኛ ብድር: እስከ 50,000 ብር፣ እስከ 18 ወር።\nልዩ ዓላማ ብድር: በየ3 ወሩ ክፍያ።\nየግል ፍጆታ ብድር: ለደመወዝተኞች ከ40,000 እስከ 200,000 ብር፣ ከ12 እስከ 18 ወር።\nሁኔታዎን ይንገሩኝና አንዱን እጠቁምዎታለሁ።'}},
+ {k:['salary','salaried','employee','ደመወዝ','personal'],a:{en:'The Personal Consumption Loan is for salaried or fixed-income people. It gives 40,000 to 200,000 ETB depending on your salary tier, for 12 to 18 months. You need ID, a bank statement, marital status proof, 6 photos and signatures.',am:'የግል ፍጆታ ብድር ለደመወዝተኞች ወይም ቋሚ ገቢ ላላቸው ነው። እንደ ደመወዝ እርከን ከ40,000 እስከ 200,000 ብር፣ ከ12 እስከ 18 ወር። መታወቂያ፣ የባንክ ስቴትመንት፣ የጋብቻ ሁኔታ ማስረጃ፣ 6 ፎቶና ፊርማ ያስፈልጋል።'}},
+ {k:['micro','small business','50,000','50000','አነስተኛ'],a:{en:'The Business Development Micro Loan is for micro-businesses upgrading operations. Maximum 50,000 ETB, repaid within 18 months.',am:'የንግድ ልማት አነስተኛ ብድር ሥራቸውን ለሚያሻሽሉ ጥቃቅን ንግዶች ነው። ከፍተኛ 50,000 ብር፣ በ18 ወር ውስጥ የሚከፈል።'}},
+ {k:['sme','working capital','expansion','መካከለኛ'],a:{en:'The SME Loan is our main business loan for working capital or expansion. The amount follows your business cash flow and repayment is flexible.',am:'አነስተኛና መካከለኛ ንግድ ብድር ለሥራ ማስኬጃና ለማስፋፊያ ዋናው የንግድ ብድራችን ነው። መጠኑ በንግድዎ የገንዘብ ፍሰት ይወሰናል፤ አከፋፈሉ ተለዋዋጭ ነው።'}},
+ {k:['quarter','every 3 months','specific purpose','ልዩ ዓላማ'],a:{en:'The Specific Purpose Loan is a business loan repaid once every 3 months. The amount follows your business cash flow.',am:'ልዩ ዓላማ ብድር በየ3 ወሩ አንድ ጊዜ የሚከፈል የንግድ ብድር ነው። መጠኑ በንግድዎ የገንዘብ ፍሰት ይወሰናል።'}},
+ {k:['document','requirement','collateral','guarantor','ሰነድ','ዋስትና','ዋስ','vehicle','car','house','property','construction','ቤት','መኪና'],a:{en:'Every borrower brings: renewed resident ID (original and 2 copies, borrower and guarantor), marital status proof, 6 passport photos, and signatures from borrower, guarantor and spouses.\nBusiness loans add: trade license, principal registration license, TIN, tax clearance and a bank statement.\nVehicle collateral: original Libre, comprehensive insurance, valuation certificate.\nHouse collateral: original title deed (Karta).\nUse the document checklist on this page to get your exact list.',am:'ሁሉም ተበዳሪዎች: የታደሰ የነዋሪነት መታወቂያ (ዋና እና 2 ኮፒ፣ የተበዳሪና የዋስ)፣ የጋብቻ ሁኔታ ማስረጃ፣ 6 ፎቶ፣ እና የተበዳሪ፣ ዋስና የትዳር አጋሮች ፊርማ።\nየንግድ ብድር ተጨማሪ: የንግድ ፈቃድ፣ የዋና ምዝገባ ፈቃድ፣ ቲን፣ የግብር ክሊራንስና የባንክ ስቴትመንት።\nየመኪና ዋስትና: ኦሪጅናል ሊብሬ፣ ሙሉ ኢንሹራንስ፣ የግምት ሰርተፍኬት።\nየቤት ዋስትና: ኦሪጅናል ካርታ።\nትክክለኛ ዝርዝርዎን በገጹ ላይ ያለው የሰነድ ዝርዝር ይሰጥዎታል።'}},
+ {k:['fee','tariff','rtgs','charge','vat','transfer','ክፍያ','ታሪፍ','ዝውውር'],a:{en:'Fees:\nOutgoing RTGS (MT 103): 100 ETB + 15% VAT\nIncoming RTGS: free\nTransfers between Nisir accounts: free\nLoan repayment transfer and cash withdrawal within NBE limits: free\nLMTS for loan repayments: free',am:'ክፍያዎች:\nወጪ RTGS (MT 103): 100 ብር + 15% ተጨማሪ እሴት ታክስ\nገቢ RTGS: ነፃ\nበንስር ሂሳቦች መካከል ዝውውር: ነፃ\nየብድር ክፍያ ዝውውርና በብሔራዊ ባንክ ገደብ ውስጥ ገንዘብ ማውጣት: ነፃ\nለብድር ክፍያ LMTS: ነፃ'}},
+ {k:['branch','location','address','where','near','ቅርንጫፍ','አድራሻ','የት'],a:{en:'Nisir has 24 branches. Headquarters: Nisir Building, European Union Street (Rwanda area), Addis Ababa. Use the branch locator on this page to search by landmark or sort by distance. You can also call 9404.',am:'ንስር 24 ቅርንጫፎች አሉት። ዋና መሥሪያ ቤት: ንስር ሕንፃ፣ አውሮፓ ኅብረት ጎዳና (ሩዋንዳ አካባቢ)፣ አዲስ አበባ። በምልክት ቦታ ለመፈለግ ወይም በርቀት ለመደርደር በገጹ ላይ ያለውን የቅርንጫፍ ፈላጊ ይጠቀሙ። ወደ 9404 መደወልም ይችላሉ።'}},
+ {k:['contact','phone','call','email','9404','hotline','ስልክ','ደውል','ኢሜይል'],a:{en:'Call 9404 (customer contact center), +251 115 622 225 or +251 115 622 371. Email info@nisirmfi.com.',am:'ወደ 9404 (የደንበኞች ማዕከል)፣ +251 115 622 225 ወይም +251 115 622 371 ይደውሉ። ኢሜይል: info@nisirmfi.com።'}},
+ {k:['apply','application','how to apply','አመልክት','ማመልከት'],a:{en:'Tap "Apply for a loan". The form takes four short steps: personal, location, business and loan details. You get a reference ID to track your application.',am:'"ብድር ይጠይቁ" ይጫኑ። ቅጹ አራት አጫጭር ደረጃዎች አሉት: የግል፣ አድራሻ፣ ንግድና የብድር ዝርዝር። ማመልከቻዎን ለመከታተል የማመሳከሪያ ቁጥር ይሰጥዎታል።'}},
+ {k:['track','status','ሁኔታ','ተከታተል'],a:{en:'Use the tracker on this page. Enter your phone number and the reference ID you received when you applied.',am:'በገጹ ላይ ያለውን መከታተያ ይጠቀሙ። ስልክ ቁጥርዎንና ሲያመለክቱ የተሰጥዎትን የማመሳከሪያ ቁጥር ያስገቡ።'}},
+ {k:['about','who','ceo','nisir','history','ማን','ስለ'],a:{en:'Nisir Microfinance Institution S.C. was established in 2014. It serves micro, small and medium businesses and working people, with 45,000+ active clients, 24 branches and 250+ employees. CEO: Mr. Dawit Wakgari.',am:'ንስር ማይክሮፋይናንስ ተቋም አ.ማ በ2014 ተቋቋመ። ጥቃቅን፣ አነስተኛና መካከለኛ ንግዶችንና ሠራተኞችን ያገለግላል፤ ከ45,000 በላይ ንቁ ደንበኞች፣ 24 ቅርንጫፎችና ከ250 በላይ ሠራተኞች አሉት። ዋና ሥራ አስፈጻሚ: አቶ ዳዊት ዋቅጋሪ።'}},
+ {k:['tax','withholding','ግብር'],a:{en:'Digital regular saving interest is calculated on the minimum monthly balance and is subject to 5% withholding tax.',am:'የዲጂታል መደበኛ ቁጠባ ወለድ በወሩ ዝቅተኛ ቀሪ ሂሳብ ላይ ይሰላል፣ 5% የግብር ተቀናሽ ይኖረዋል።'}}
+];
+const QS=[['ch.q1','savings rate interest'],['ch.q2','which loan fits'],['ch.q3','documents'],['ch.q4','kacha limit'],['ch.q5','fees']];
+function renderChatUI(){
+  $('#sugg').innerHTML=QS.map(([k,q])=>`<button class="chip" type="button" data-q="${q}">${t(k)}</button>`).join('');
+  $$('#sugg .chip').forEach(b=>b.addEventListener('click',()=>ask(b.textContent,b.dataset.q)));
+  if(!S.chatInit){S.chatInit=1;addMsg('bot',null,'ch.hi')}
+}
+function addMsg(who,text,key){const m=document.createElement('div');m.className='m '+who;if(key){m.dataset.key=key}m.textContent=text||t(key);$('#msgs').appendChild(m);$('#msgs').scrollTop=1e9;return m}
+function answer(q){
+  const s=' '+q.toLowerCase()+' ';let best=null,sc=0;
+  KB.forEach(e=>{let n=0;e.k.forEach(k=>{if(s.includes(k.toLowerCase()))n+=k.length>3?2:1});if(n>sc){sc=n;best=e}});
+  return best&&sc>0?tt(best.a):null;
+}
+async function ask(display,hint){
+  if(!display)return;addMsg('me',display);const ty=document.createElement('div');ty.className='m bot typing';ty.innerHTML='<i></i><i></i><i></i>';$('#msgs').appendChild(ty);$('#msgs').scrollTop=1e9;
+  let r=null;
+  if(CONFIG.aiEndpoint){try{const x=await fetch(CONFIG.aiEndpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:display,lang:S.lang})});r=(await x.json()).reply}catch(e){}}
+  if(!r)r=answer(hint||display);
+  await new Promise(res=>setTimeout(res,RM?0:450));ty.remove();addMsg('bot',r||t('ch.fb'));
+}
+function openChat(o){$('#chat').classList.toggle('open',o);if(o)setTimeout(()=>$('#chIn').focus(),50)}
+$('#chClose').addEventListener('click',()=>openChat(false));
+$('#chForm').addEventListener('submit',e=>{e.preventDefault();const v=$('#chIn').value.trim();if(!v)return;$('#chIn').value='';ask(v)});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){openChat(false);dock.classList.remove('open')}});
+
+/* ============ 3D hero (Three.js, loaded lazily) ============ */
+(function(){
+  const stage=$('#stage'),canvas=$('#gl');
+  const saveData=navigator.connection&&navigator.connection.saveData;
+  let gl=null;try{const c=document.createElement('canvas');gl=c.getContext('webgl')||c.getContext('experimental-webgl')}catch(e){}
+  if(!gl||saveData){stage.style.display='none';return}
+  const load=()=>{const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';s.onload=init;s.onerror=()=>{stage.style.display='none'};document.head.appendChild(s)};
+  if('requestIdleCallback' in window)requestIdleCallback(load,{timeout:2500});else setTimeout(load,800);
+
+  function init(){
+    const THREE=window.THREE;
+    const renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true,powerPreference:'low-power'});
+    renderer.setClearColor(0x000000,0);
+    const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(34,1,.1,100);camera.position.set(0,1.2,13);camera.lookAt(0,0,0);
+    scene.add(new THREE.AmbientLight(0xc6cdf2,.7));
+    const key=new THREE.DirectionalLight(0xfff0c8,1.35);key.position.set(5,8,6);scene.add(key);
+    const rim=new THREE.PointLight(0x6F83F0,1.6,30);rim.position.set(-6,-2,5);scene.add(rim);
+    const warm=new THREE.PointLight(0xffb84a,1.1,25);warm.position.set(4,-4,4);scene.add(warm);
+
+    // coin face texture with the Amharic word for eagle
+    const tc=document.createElement('canvas');tc.width=tc.height=256;const x=tc.getContext('2d');
+    const g=x.createRadialGradient(128,128,10,128,128,128);g.addColorStop(0,'#FFE9A8');g.addColorStop(.7,'#E2A72E');g.addColorStop(1,'#B9811A');x.fillStyle=g;x.fillRect(0,0,256,256);
+    x.strokeStyle='rgba(122,80,6,.75)';x.lineWidth=9;x.beginPath();x.arc(128,128,106,0,7);x.stroke();x.lineWidth=3;x.beginPath();x.arc(128,128,94,0,7);x.stroke();
+    x.fillStyle='rgba(110,70,4,.9)';x.font='700 76px "Noto Sans Ethiopic",Nyala,Kefa,"Abyssinica SIL",sans-serif';x.textAlign='center';x.textBaseline='middle';x.fillText('ንስር',128,130);
+    const tex=new THREE.CanvasTexture(tc);
+    const geo=new THREE.CylinderGeometry(1,1,.2,48,1);
+    const side=new THREE.MeshPhongMaterial({color:0xD39A25,specular:0xfff0b0,shininess:80});
+    const face=new THREE.MeshPhongMaterial({map:tex,specular:0xfff0b0,shininess:60});
+    const mats=[side,face,face];
+    const N=window.innerWidth<700?26:40,coins=[],group=new THREE.Group();scene.add(group);
+    for(let i=0;i<N;i++){const m=new THREE.Mesh(geo,mats);m.userData={i,sp:.5+Math.random()*.5,ph:Math.random()*6.28};group.add(m);coins.push(m)}
+    const gem=new THREE.Mesh(new THREE.IcosahedronGeometry(1.25,0),new THREE.MeshPhongMaterial({color:0x2A3A8C,emissive:0x121C55,specular:0xdfe4ff,shininess:120,flatShading:true}));group.add(gem);
+    const halo=new THREE.Mesh(new THREE.TorusGeometry(1.9,.025,8,80),new THREE.MeshBasicMaterial({color:0xE2A72E,transparent:true,opacity:.7}));halo.rotation.x=1.3;group.add(halo);
+
+    let w=0,h=0;function size(){const r=stage.getBoundingClientRect();w=r.width;h=r.height;renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));renderer.setSize(w,h,false);camera.aspect=w/h;camera.position.z=w/h<1?17:13;camera.updateProjectionMatrix()}
+    size();addEventListener('resize',size);
+    let tx=0,ty=0,cx=0,cy=0,drag=false,lx=0,spin=0,vel=0,vis=true,run=true;
+    stage.addEventListener('pointermove',e=>{const r=stage.getBoundingClientRect();tx=((e.clientX-r.left)/r.width-.5);ty=((e.clientY-r.top)/r.height-.5);if(drag){vel=(e.clientX-lx)*.01;lx=e.clientX}});
+    stage.addEventListener('pointerdown',e=>{drag=true;lx=e.clientX});addEventListener('pointerup',()=>drag=false);
+    stage.addEventListener('pointerleave',()=>{tx=0;ty=0});
+    new IntersectionObserver(es=>{vis=es[0].isIntersecting;if(vis&&!RM)loop()}).observe(stage);
+    document.addEventListener('visibilitychange',()=>{run=!document.hidden;if(run&&vis&&!RM)loop()});
+    let raf=0,t0=performance.now();
+    function frame(now){
+      const t=(now-t0)/1000;
+      spin+=vel+.004;vel*=.94;cx+=(tx-cx)*.06;cy+=(ty-cy)*.06;
+      group.rotation.y=spin+cx*1.2;group.rotation.x=cy*.5;
+      const sy=Math.min(1,scrollY/700);group.position.y=-sy*1.6;
+      coins.forEach(c=>{const {i,sp,ph}=c.userData,a=i*.62+t*.22*sp,r=2.5+Math.sin(i*.7+t*.4)*.5+(i/N)*.9;
+        c.position.set(Math.cos(a)*r,(i-N/2)*.3+Math.sin(t*sp+ph)*.12,Math.sin(a)*r);
+        c.rotation.set(1.1+Math.sin(t*.6+ph)*.35,a*1.0,Math.cos(t*.5+ph)*.3)});
+      gem.rotation.y=t*.5;gem.rotation.x=t*.3;gem.scale.setScalar(1+Math.sin(t*1.4)*.04);halo.rotation.z=t*.4;
+      renderer.render(scene,camera);
+    }
+    function loop(){cancelAnimationFrame(raf);const step=n=>{if(!vis||!run)return;frame(n);raf=requestAnimationFrame(step)};raf=requestAnimationFrame(step)}
+    if(RM){frame(t0+2500);addEventListener('resize',()=>frame(t0+2500))}else loop();
+  }
+})();
+
+/* ============ init ============ */
+(function(){try{const l=localStorage.getItem('nisir-lang');if(l==='am'||l==='en')S.lang=l;else if((navigator.language||'').toLowerCase().startsWith('am'))S.lang='am'}catch(e){}
+  S.loanType='sme';applyLang();
+})();
+</script>
+</body>
+</html>
